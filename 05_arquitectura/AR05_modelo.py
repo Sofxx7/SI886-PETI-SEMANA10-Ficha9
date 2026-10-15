@@ -33,6 +33,7 @@ def rel(typ,source,target,name=''):
     relations.append((id,source,target,typ))
 
 procesos=['Licitacion y contratacion','Planificacion y ejecucion','Seguridad y salud ocupacional','Control de personal y campamento','Mantenimiento de equipos','Facturacion y valorizaciones']
+with (ROOT/'AR02_entidades.csv').open(encoding='utf-8-sig') as f: entidades=list(csv.DictReader(f))
 for state in ['AS','TB']:
     propuesto=state=='TB'
     base='Propuesta de arquitectura objetivo; requiere validacion y aprobacion.' if propuesto else 'Estado actual documentado en FICHA D y arquitectura-actual 3.'
@@ -69,7 +70,8 @@ for state in ['AS','TB']:
     if propuesto: rel('Serving','TB_S05','TB_A01')
     datos=[('Personal en campamento','Sin fuente autoritativa; Operaciones como responsable de hecho. Conteos 420, hasta 700, 480, 420.'),('Equipo','ERP autoritativo; Superintendente de Mantenimiento; 310,310,290. Horas discrepantes.'),('Contrato','Sin fuente ni dueno; 140 en cada ubicacion, sin control efectivo de vigencia.'),('Servicio','ERP autoritativo; Gerente de Operaciones; 36 por anio, sin desglose por sistema.'),('Proveedor','Dataset entregado proveedores.csv con 210 registros. Sistema origen y dueno no documentados.'),('Pago','Dataset entregado pagos.csv con 25185 registros. Sistema origen y dueno no documentados.')]
     for i,(name,doc) in enumerate(datos,1):
-        element(f'{state}_D{i:02}','DataObject',name+(' con gobierno propuesto' if propuesto else ''),'application',base+' '+('Fuente y dueno propuestos en AR02; validar.' if propuesto else doc))
+        propuesta='Fuente propuesta: '+entidades[i-1]['fuente_objetivo_propuesta']+'. Dueño propuesto: '+entidades[i-1]['dueno_objetivo_propuesto']+'. Pendiente de ratificación.'
+        element(f'{state}_D{i:02}','DataObject',name+(' con gobierno propuesto' if propuesto else ''),'application',base+' '+(propuesta if propuesto else doc))
     for aid,did in [('A01','D01'),('A03','D01'),('A02','D01'),('A04','D02'),('A01','D03'),('A06','D03'),('A01','D04'),('A05','D04')]: rel('Access',state+'_'+aid,state+'_'+did)
     for i in range(1,5): rel('Realization',f'{state}_D{i:02}',f'{state}_BO{i:02}')
     for aid,pid in [('A05','P02'),('A06','P07'),('A07','P04')]: rel('Serving',state+'_'+aid,state+'_'+pid)
@@ -132,11 +134,14 @@ view('view-coop','03 Cooperacion proceso aplicacion',items,[('Cooperación AS: 6
 items=[];notes=[]
 for j,st in enumerate(['AS','TB']):
     for i in range(1,7):
-        items.append((f'{st}_D{i:02}',40+j*1000,130+(i-1)*190,300,80))
+        x=40+j*1440;y=140+(i-1)*250
+        items.append((f'{st}_D{i:02}',x+330,y+60,290,80))
         info=catalog[f'{st}_D{i:02}']['documentation']
-        notes.append((info,370+j*1000,130+(i-1)*190,600,125))
-    for i,aid in enumerate(['A01','A02','A03','A04','A05','A06']): items.append((st+'_'+aid,40+j*1000,1320+i*100,300,65))
-view('view-data','04 Informacion actual y objetivo',items,[('Información AS / TB: fuentes, dueños y límites documentados. Proveedor/Pago: origen actual desconocido; no se inventa un sistema operativo.',40,20,1930,70)]+notes)
+        notes.append((st+' | '+info,x+660,y+15,700,180))
+        sources={1:['A01','A02','A03'],2:['A04'],3:['A01','A06'],4:['A01','A05'],5:[],6:[]}[i]
+        if st=='TB' and i in [5,6]:sources=['A01']
+        for k,aid in enumerate(sources):items.append((st+'_'+aid,x,y+k*70,270,60))
+view('view-data','04 Informacion actual y objetivo',items,[('Información AS / TB: aplicaciones → datos; fuentes, dueños y límites documentados. Proveedor/Pago: origen actual desconocido; no se inventa un sistema operativo.',40,20,2800,70)]+notes)
 for st,nm in [('AS','05 Gobierno actual'),('TB','06 Gobierno objetivo')]:
     keys=['R01','R02','R03','R04','P07','P08','P09','P10','P11','B01','A06','T06']
     if st=='TB': keys+=['A08']
@@ -151,8 +156,8 @@ for i,g in enumerate(gaps):
     for j,k in enumerate(['elemento_as_is','elemento_to_be']):
         eid=g[k]
         items.append((eid,40+j*740,140+i*150,500,95))
-notes=[(g['id']+' | '+g['capa']+' | '+g['tipo_brecha']+' | '+g['paquete'],560,140+i*150,200,90) for i,g in enumerate(gaps)]
-view('view-gaps','07 Brechas actual objetivo',items,[('Brechas AS → TB | Origen y criterios en AR03_brechas.csv y AR07_trazabilidad.csv. No representa migración ejecutada.',40,20,1240,70)]+notes)
+notes=[(g['id']+' | '+g['capa']+' | '+g['tipo_brecha']+' | '+g['paquete'],1340,140+i*150,300,90) for i,g in enumerate(gaps)]
+view('view-gaps','07 Brechas actual objetivo',items,[('Brechas AS → TB | Origen y criterios en AR03_brechas.csv y AR07_trazabilidad.csv. No representa migración ejecutada.',40,20,1600,70)]+notes)
 E.SubElement(model,'purpose').text='Caso académico ficticio 09. AS basado en FICHA e inventario; TB propuesto. Sin IP, secretos ni registros personales. Mantener público fue decisión del equipo; requisito privado pendiente.'
 E.indent(model,space='  ')
 E.ElementTree(model).write(ROOT/'AR05_Cordillera.archimate',encoding='utf-8',xml_declaration=True)

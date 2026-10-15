@@ -369,7 +369,7 @@ Trazabilidad: FICHA, B y C; inventario, sección 2.
 
 ### Evidencia de publicación y revisión
 
-El PR #1 consta fusionado en develop. La revisión de correcciones se integra y etiqueta como taller-10 y v0.10. El repositorio mantiene carácter público por indicación del equipo. La ejecución nativa de Archi y las pruebas no acreditan implantación ni cierre de homologación.
+El PR #1 consta fusionado en develop. La revisión de correcciones se integra y etiqueta como taller-10 y v0.10. El repositorio mantiene carácter público por indicación del equipo. La ejecución nativa de Archi y las pruebas no acreditan implantación ni cierre de homologación. Evidencia de integración de las correcciones: [PR #2](https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9/pull/2)
 
 ### Anexo F. Sección 5 del PETI — arquitectura empresarial
 

@@ -9,7 +9,7 @@ Arquitectura empresarial de Servicios Mineros Cordillera S.A.C., organización f
 - 17 brechas con tipo, esfuerzo ordinal y dependencias; seis paquetes en tres niveles.
 - [Base estratégica propuesta](05_arquitectura/00_base_estrategica_caso09.md), [trazabilidad](05_arquitectura/AR07_trazabilidad.csv) y [validación](05_arquitectura/AR08_validacion.md).
 - [Informe versionable sin códigos personales](INFORME_S10_Grupo1_avance.md). El Word y PDF con carátula completa se entregan por Drive/aula virtual, no en este repositorio público.
-- El PR #1 ya estaba fusionado en develop; las correcciones se integran por PR y se sincronizan con main.
+- El PR #1 ya estaba fusionado en develop; las correcciones se integran por [PR #2](https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9/pull/2) y se sincronizan con main.
 - [Estado entregado `taller-10`](https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9/tree/taller-10); `v0.10` identifica el estado del PETI. Las etiquetas no certifican implantación o conformidad del negocio.
 
 ## Integrantes
