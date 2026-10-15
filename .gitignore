@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+~$*
+*.tmp
+fuentes/FICHA.md
+fuentes/arquitectura-actual.md

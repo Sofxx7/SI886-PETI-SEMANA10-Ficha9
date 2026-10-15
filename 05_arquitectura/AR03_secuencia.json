@@ -1,0 +1,38 @@
+{
+  "niveles": [
+    [
+      "PT01"
+    ],
+    [
+      "PT02",
+      "PT03",
+      "PT05",
+      "PT06"
+    ],
+    [
+      "PT04"
+    ]
+  ],
+  "dependencias": {
+    "PT01": [],
+    "PT02": [
+      "PT01"
+    ],
+    "PT03": [
+      "PT01"
+    ],
+    "PT04": [
+      "PT02",
+      "PT03",
+      "PT05",
+      "PT06"
+    ],
+    "PT05": [
+      "PT01"
+    ],
+    "PT06": [
+      "PT01"
+    ]
+  },
+  "criterio": "Orden tecnico propuesto. Dentro del mismo nivel se puede trabajar en paralelo sujeto a recursos. No es cronograma ni autorizacion presupuestal."
+}
