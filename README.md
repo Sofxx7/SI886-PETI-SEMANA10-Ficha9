@@ -1,67 +1,38 @@
-# Taller S10 Grupo 1 Caso 09
+# Taller S10 · Grupo 1 · Caso 09
 
-**Repositorio:** https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9
+Arquitectura empresarial de Servicios Mineros Cordillera S.A.C., organización ficticia del curso SI-886.
 
-**Estado:** archivos y an�lisis preparados; validaci�n del modelo y exportaciones desde Archi pendientes. La gu�a solicita repositorio privado; esta publicaci�n p�blica no acredita ese requisito.
+## Estado verificable
+
+- Modelo nativo cargado, guardado y exportado con **Archi 5.10.0 / ArchiMate 3.2**: 106 conceptos, 113 relaciones y siete vistas.
+- Tres hojas de cálculo actuales como componentes; seis servicios de negocio por estado y datos/gobierno explícitos.
+- 17 brechas con tipo, esfuerzo ordinal y dependencias; seis paquetes en tres niveles.
+- [Base estratégica propuesta](05_arquitectura/00_base_estrategica_caso09.md), [trazabilidad](05_arquitectura/AR07_trazabilidad.csv) y [validación](05_arquitectura/AR08_validacion.md).
+- [Informe versionable sin códigos personales](INFORME_S10_Grupo1_avance.md). El Word y PDF con carátula completa se entregan por Drive/aula virtual, no en este repositorio público.
+- El PR #1 ya estaba fusionado en develop; las correcciones se integran por [PR #2](https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9/pull/2) y se sincronizan con main.
+- [Estado entregado `taller-10`](https://github.com/Sofxx7/SI886-PETI-SEMANA10-Ficha9/tree/taller-10); `v0.10` identifica el estado del PETI. Las etiquetas no certifican implantación o conformidad del negocio.
 
 ## Integrantes
-- Carbajal Vargas, Andre Alejandro
-- Yupa G�mez, F�tima Sof�a
-- Llanos Ni�o, Vincenzo Rafael
 
-Los c�digos se reservan para la car�tula del informe de entrega. El caso es ficticio y sus insumos ya son p�blicos; v�ase [PROCEDENCIA.md](PROCEDENCIA.md).
-
-## Contenido
-- `INFORME_S10_Grupo1_avance.md`: contenido desarrollado siguiendo las siete secciones del documento grupal.
-- `05_arquitectura/AR01_principios.md`: siete principios con los cinco campos.
-- `05_arquitectura/AR02_entidades.csv`: seis entidades y sus l�mites de evidencia.
-- `05_arquitectura/AR03_brechas.py`: an�lisis reproducible con pandas.
-- `05_arquitectura/AR03_brechas.csv`: 17 brechas con IDs de ambos estados del modelo.
-- `05_arquitectura/AR03_paquetes.csv`, `AR03_secuencia.json`: seis paquetes y secuencia por dependencias.
-- `05_arquitectura/AR04_proceso_aplicacion.csv`: seis procesos y evaluaci�n del soporte.
-- `05_arquitectura/AR05_Cordillera.archimate`: modelo nativo generado, con cuatro vistas.
-- `05_arquitectura/AR05_modelo.py`: generador y comprobaci�n estructural del modelo.
-- `05_arquitectura/AR05_catalogo.csv`: conceptos del modelo y su documentaci�n.
-- `05_arquitectura/AR06_derivacion_objetivo.md`: propuesta y trazabilidad al caso.
-- `05_arquitectura/05_arquitectura_empresarial.md`: secci�n 5 del PETI.
-- `graficos/`: tres PNG de revisi�n. Todav�a no son exportaciones de Archi.
-- `evidencias/S10/salidas/`: salidas de las ejecuciones realizadas.
-- `fuentes/`: enlaces a los insumos p�blicos del caso ficticio 09 del curso.
+Carbajal Vargas, Andre Alejandro · Yupa Gómez, Fátima Sofía · Llanos Niño, Vincenzo Rafael. Códigos reservados para la carátula del documento de entrega.
 
 ## Reproducir
 
-Requiere Python 3.11 o superior, pandas y Pillow. La ejecuci�n de este avance us� Python 3.13.15 y pandas 2.3.3.
+Python 3.11+ y pandas (revisión con pandas 2.2.3). No se requiere Pillow ni una fuente Windows para generar el modelo.
 
-```text
-cd 05_arquitectura
-python AR03_brechas.py
-python AR05_modelo.py
+```bash
+python 05_arquitectura/AR03_brechas.py
+python 05_arquitectura/AR05_modelo.py
+python 05_arquitectura/AR09_validar.py --archi-home /ruta/a/Archi
 ```
 
-## Cerrar el taller
+Las PNG se exportan **desde Archi**; regenerar el XML no las actualiza automáticamente. Comando y procedencia en AR08_validacion.md. `graficos/V01_actual.png`, `V02_objetivo.png` y `V03_cooperacion.png` son las vistas principales; V04–V07 amplían datos, controles y brechas.
 
-1. Incorporar la visi�n, capacidades, estrategias y marcos del PETI grupal del caso 09. No usar las secciones de Bitel o de la cl�nica.
-2. Abrir `AR05_Cordillera.archimate` en Archi. Revisar elementos, relaciones y correspondencia con el caso. La comprobaci�n XML no reemplaza esta validaci�n.
-3. Exportar desde Archi tres vistas PNG y reemplazar las previsualizaciones de revisi�n.
-4. Validar sistemas de origen y due�os de Proveedor y Pago, cobertura de conteos de Personal y el BIA. Obtener las nueve observaciones de homologaci�n.
-5. Integrar el contenido al Word grupal, actualizar �ndice, revisar todas las p�ginas y exportar `SI886-S10-TALLER-Grupo1.pdf`.
-6. Revisar el PR de `taller-10-caso09` hacia `develop` en este repositorio. Los archivos se publican como avance, con sus validaciones pendientes.
-7. Crear `v0.10` y `taller-10` sobre el commit final, y publicar ambas etiquetas en el repositorio del equipo.
-8. Sustituir las rutas locales del informe por URLs reales verificadas del repositorio y PR. El docente debe poder abrirlas con su cuenta autorizada. No declarar cumplida esta parte antes de verificar acceso.
+## Reservas de entrega
 
-Comandos de cierre despu�s de las revisiones:
+1. **Repositorio público por decisión expresa del equipo.** La guía exige privado; esa condición sigue pendiente. No se han cambiado permisos ni invitado colaboradores.
+2. La base estratégica es una propuesta académica nueva, no un PETI histórico aprobado.
+3. Sistema de origen de Proveedor/Pago, conteos por sistema de Servicio, detalle de las nueve observaciones y BIA deben confirmarse con fuentes adicionales. No se inventan datos ni aprobaciones.
+4. La carga y exportación se ejecutaron con el motor de Archi vía CLI; no se afirma una sesión interactiva humana en su GUI.
 
-```text
-git add 05_arquitectura graficos evidencias/S10
-git commit -m "S10: arquitectura empresarial del caso 09 y analisis de brechas"
-```
-
-Despu�s de fusionar el PR y situarse en el commit entregado:
-
-```text
-git tag -a v0.10 -m "PETI v0.10 arquitectura empresarial"
-git tag -a taller-10 -m "Taller 10 SI886 Grupo 1 Caso 09"
-git push origin v0.10 taller-10
-```
-
-Este repositorio corresponde al caso 09. La publicaci�n de artefactos no acredita validaci�n en Archi, etiquetas ni cierre de homologaci�n. Los textos de las nueve observaciones todav�a deben obtenerse y contrastarse.
+Fuentes y alcance: [PROCEDENCIA.md](PROCEDENCIA.md).

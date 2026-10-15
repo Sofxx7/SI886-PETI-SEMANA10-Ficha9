@@ -1,4 +1,4 @@
-id,type,name,layer,documentation
+﻿id,type,name,layer,documentation
 AS_P01,BusinessProcess,Licitacion y contratacion,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
 AS_P02,BusinessProcess,Planificacion y ejecucion,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
 AS_P03,BusinessProcess,Seguridad y salud ocupacional,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
@@ -10,6 +10,16 @@ AS_P08,BusinessProcess,Administracion con cuentas compartidas,business,Estado ac
 AS_P09,BusinessProcess,Soporte reactivo sin registro,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
 AS_P10,BusinessProcess,Cambios documentados despues de ejecutar,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
 AS_P11,BusinessProcess,Homologacion con nueve observaciones abiertas,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_BS01,BusinessService,Atención contractual al cliente,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BS02,BusinessService,Ejecución del servicio minero,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BS03,BusinessService,Aseguramiento de SSO,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BS04,BusinessService,Control de acceso y asistencia,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BS05,BusinessService,Disponibilidad de equipos,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BS06,BusinessService,Valorización del servicio,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+AS_BO01,BusinessObject,Personal,business,Concepto de negocio del inventario 5.
+AS_BO02,BusinessObject,Equipo,business,Concepto de negocio del inventario 5.
+AS_BO03,BusinessObject,Contrato,business,Concepto de negocio del inventario 5.
+AS_BO04,BusinessObject,Servicio,business,Concepto de negocio del inventario 5.
 AS_B01,BusinessObject,Politica de seguridad 2022 sin revision,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA B.
 AS_R01,BusinessActor,Cliente minero,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
 AS_R02,BusinessRole,Gerencia de Operaciones,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
@@ -52,6 +62,16 @@ TB_P08,BusinessProcess,Administracion con identidad individual,business,Propuest
 TB_P09,BusinessProcess,Soporte con registro de incidentes,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
 TB_P10,BusinessProcess,Cambios aprobados antes de ejecutar,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
 TB_P11,BusinessProcess,Homologacion con evidencia y cierre validado,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_BS01,BusinessService,Atención contractual al cliente,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BS02,BusinessService,Ejecución del servicio minero,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BS03,BusinessService,Aseguramiento de SSO,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BS04,BusinessService,Control de acceso y asistencia,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BS05,BusinessService,Disponibilidad de equipos,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BS06,BusinessService,Valorización del servicio,business,Servicio abstraído de FICHA D; no implica un SLA medido.
+TB_BO01,BusinessObject,Personal,business,Concepto de negocio del inventario 5.
+TB_BO02,BusinessObject,Equipo,business,Concepto de negocio del inventario 5.
+TB_BO03,BusinessObject,Contrato,business,Concepto de negocio del inventario 5.
+TB_BO04,BusinessObject,Servicio,business,Concepto de negocio del inventario 5.
 TB_B01,BusinessObject,Politica de seguridad revisada y difundida,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA B.
 TB_R01,BusinessActor,Cliente minero,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
 TB_R02,BusinessRole,Gerencia de Operaciones,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
@@ -71,12 +91,12 @@ TB_S03,ApplicationService,Registro de personal conciliado,application,Propuesta 
 TB_S04,ApplicationService,Transferencia de personal con validacion,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
 TB_S06,ApplicationService,Gestion de mantenimiento,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
 TB_S05,ApplicationService,Intercambio minimo SSO ERP,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
-TB_D01,DataObject,Personal en campamento con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
-TB_D02,DataObject,Equipo con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
-TB_D03,DataObject,Contrato con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
-TB_D04,DataObject,Servicio con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
-TB_D05,DataObject,Proveedor con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
-TB_D06,DataObject,Pago con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D01,DataObject,Personal en campamento con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de personal validado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de RRHH con Operaciones como custodio del control de campamento. Pendiente de ratificación.
+TB_D02,DataObject,Equipo con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP mantenimiento. Dueño propuesto: Superintendente de mantenimiento. Pendiente de ratificación.
+TB_D03,DataObject,Contrato con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro contractual controlado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de Compras y Contratos con validacion Legal. Pendiente de ratificación.
+TB_D04,DataObject,Servicio con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP proyectos. Dueño propuesto: Gerente de operaciones. Pendiente de ratificación.
+TB_D05,DataObject,Proveedor con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de proveedores del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Compras propuesto. Pendiente de ratificación.
+TB_D06,DataObject,Pago con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro financiero del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Finanzas propuesto. Pendiente de ratificación.
 TB_T01,Node,Nube privada del ERP,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
 TB_T02,TechnologyService,Conectividad redundante con conmutacion probada,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
 TB_T03,Node,Servidor de control con recuperacion probada,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
