@@ -35,6 +35,36 @@
     <element xsi:type="archimate:BusinessProcess" id="AS_P11" name="Homologacion con nueve observaciones abiertas">
       <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
     </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS01" name="Atención contractual al cliente">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS02" name="Ejecución del servicio minero">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS03" name="Aseguramiento de SSO">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS04" name="Control de acceso y asistencia">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS05" name="Disponibilidad de equipos">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="AS_BS06" name="Valorización del servicio">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="AS_BO01" name="Personal">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="AS_BO02" name="Equipo">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="AS_BO03" name="Contrato">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="AS_BO04" name="Servicio">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessObject" id="AS_B01" name="Politica de seguridad 2022 sin revision">
       <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA B.</documentation>
     </element>
@@ -82,6 +112,36 @@
     </element>
     <element xsi:type="archimate:BusinessProcess" id="TB_P11" name="Homologacion con evidencia y cierre validado">
       <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS01" name="Atención contractual al cliente">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS02" name="Ejecución del servicio minero">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS03" name="Aseguramiento de SSO">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS04" name="Control de acceso y asistencia">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS05" name="Disponibilidad de equipos">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessService" id="TB_BS06" name="Valorización del servicio">
+      <documentation>Servicio abstraído de FICHA D; no implica un SLA medido.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="TB_BO01" name="Personal">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="TB_BO02" name="Equipo">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="TB_BO03" name="Contrato">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="TB_BO04" name="Servicio">
+      <documentation>Concepto de negocio del inventario 5.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" id="TB_B01" name="Politica de seguridad revisada y difundida">
       <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA B.</documentation>
@@ -197,22 +257,22 @@
       <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D01" name="Personal en campamento con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de personal validado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de RRHH con Operaciones como custodio del control de campamento. Pendiente de ratificación.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D02" name="Equipo con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP mantenimiento. Dueño propuesto: Superintendente de mantenimiento. Pendiente de ratificación.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D03" name="Contrato con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro contractual controlado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de Compras y Contratos con validacion Legal. Pendiente de ratificación.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D04" name="Servicio con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP proyectos. Dueño propuesto: Gerente de operaciones. Pendiente de ratificación.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D05" name="Proveedor con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de proveedores del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Compras propuesto. Pendiente de ratificación.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" id="TB_D06" name="Pago con gobierno propuesto">
-      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro financiero del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Finanzas propuesto. Pendiente de ratificación.</documentation>
     </element>
   </folder>
   <folder id="id-folder-technology" name="Technology and Physical" type="technology">
@@ -269,272 +329,991 @@
   <folder id="id-folder-implementation_migration" name="Implementation and Migration" type="implementation_migration" />
   <folder id="id-folder-other" name="Other" type="other" />
   <folder id="id-folder-relations" name="Relations" type="relations">
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-1" source="AS_R02" target="AS_P02" />
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-2" source="AS_R04" target="AS_P05" />
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-3" source="AS_R03" target="AS_P09" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-4" source="AS_A01" target="AS_S01" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-5" source="AS_A02" target="AS_S02" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-6" source="AS_A03" target="AS_S03" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-7" source="AS_A03" target="AS_S04" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-8" source="AS_A04" target="AS_S06" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-9" source="AS_S01" target="AS_P01" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-10" source="AS_S01" target="AS_P02" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-11" source="AS_S02" target="AS_P03" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-12" source="AS_S03" target="AS_P04" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-13" source="AS_S06" target="AS_P05" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-14" source="AS_S01" target="AS_P06" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-15" source="AS_S04" target="AS_A01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-16" source="AS_A01" target="AS_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-17" source="AS_A03" target="AS_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-18" source="AS_A02" target="AS_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-19" source="AS_A04" target="AS_D02" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-20" source="AS_A01" target="AS_D03" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-21" source="AS_A06" target="AS_D03" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-22" source="AS_A01" target="AS_D04" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-23" source="AS_A05" target="AS_D04" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-24" source="AS_T01" target="AS_A01" name="ubicacion documentada" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-25" source="AS_T03" target="AS_A03" name="ubicacion documentada" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-26" source="AS_T08" target="AS_A02" name="ubicacion documentada" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-27" source="AS_T02" target="AS_A01" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-28" source="AS_T02" target="AS_A03" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-29" source="AS_T07" target="AS_T02" />
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-30" source="TB_R02" target="TB_P02" />
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-31" source="TB_R04" target="TB_P05" />
-    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-32" source="TB_R03" target="TB_P09" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-33" source="TB_A01" target="TB_S01" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-34" source="TB_A02" target="TB_S02" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-35" source="TB_A03" target="TB_S03" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-36" source="TB_A03" target="TB_S04" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-37" source="TB_A04" target="TB_S06" />
-    <element xsi:type="archimate:RealizationRelationship" id="id-rel-38" source="TB_A02" target="TB_S05" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-39" source="TB_S01" target="TB_P01" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-40" source="TB_S01" target="TB_P02" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-41" source="TB_S02" target="TB_P03" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-42" source="TB_S03" target="TB_P04" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-43" source="TB_S06" target="TB_P05" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-44" source="TB_S01" target="TB_P06" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-45" source="TB_S04" target="TB_A01" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-46" source="TB_S05" target="TB_A01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-47" source="TB_A01" target="TB_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-48" source="TB_A03" target="TB_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-49" source="TB_A02" target="TB_D01" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-50" source="TB_A04" target="TB_D02" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-51" source="TB_A01" target="TB_D03" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-52" source="TB_A06" target="TB_D03" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-53" source="TB_A01" target="TB_D04" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-54" source="TB_A05" target="TB_D04" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-55" source="TB_A01" target="TB_D05" />
-    <element xsi:type="archimate:AccessRelationship" id="id-rel-56" source="TB_A01" target="TB_D06" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-57" source="TB_T01" target="TB_A01" name="ubicacion propuesta" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-58" source="TB_T03" target="TB_A03" name="ubicacion propuesta" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-59" source="TB_T08" target="TB_A02" name="ubicacion propuesta" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-60" source="TB_T02" target="TB_A01" />
-    <element xsi:type="archimate:ServingRelationship" id="id-rel-61" source="TB_T02" target="TB_A03" />
-    <element xsi:type="archimate:AssociationRelationship" id="id-rel-62" source="TB_T07" target="TB_T02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-1" source="AS_P01" target="AS_BS01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-2" source="AS_P02" target="AS_BS02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-3" source="AS_P03" target="AS_BS03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-4" source="AS_P04" target="AS_BS04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-5" source="AS_P05" target="AS_BS05" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-6" source="AS_P06" target="AS_BS06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-7" source="AS_BS01" target="AS_R01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-8" source="AS_BS06" target="AS_R01" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-9" source="AS_R02" target="AS_P02" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-10" source="AS_R04" target="AS_P05" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-11" source="AS_R03" target="AS_P09" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-12" source="AS_A01" target="AS_S01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-13" source="AS_A02" target="AS_S02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-14" source="AS_A03" target="AS_S03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-15" source="AS_A03" target="AS_S04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-16" source="AS_A04" target="AS_S06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-17" source="AS_S01" target="AS_P01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-18" source="AS_S01" target="AS_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-19" source="AS_S02" target="AS_P03" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-20" source="AS_S03" target="AS_P04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-21" source="AS_S06" target="AS_P05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-22" source="AS_S01" target="AS_P06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-23" source="AS_S04" target="AS_A01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-24" source="AS_A01" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-25" source="AS_A03" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-26" source="AS_A02" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-27" source="AS_A04" target="AS_D02" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-28" source="AS_A01" target="AS_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-29" source="AS_A06" target="AS_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-30" source="AS_A01" target="AS_D04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-31" source="AS_A05" target="AS_D04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-32" source="AS_D01" target="AS_BO01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-33" source="AS_D02" target="AS_BO02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-34" source="AS_D03" target="AS_BO03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-35" source="AS_D04" target="AS_BO04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-36" source="AS_A05" target="AS_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-37" source="AS_A06" target="AS_P07" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-38" source="AS_A07" target="AS_P04" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-39" source="AS_T03" target="AS_T05" name="respaldo actual" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-40" source="AS_T06" target="AS_P08" name="alcance de autenticación" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-41" source="AS_T01" target="AS_A01" name="ubicacion documentada" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-42" source="AS_T03" target="AS_A03" name="ubicacion documentada" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-43" source="AS_T08" target="AS_A02" name="ubicacion documentada" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-44" source="AS_T02" target="AS_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-45" source="AS_T02" target="AS_A03" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-46" source="AS_T07" target="AS_T02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-47" source="TB_P01" target="TB_BS01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-48" source="TB_P02" target="TB_BS02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-49" source="TB_P03" target="TB_BS03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-50" source="TB_P04" target="TB_BS04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-51" source="TB_P05" target="TB_BS05" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-52" source="TB_P06" target="TB_BS06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-53" source="TB_BS01" target="TB_R01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-54" source="TB_BS06" target="TB_R01" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-55" source="TB_R02" target="TB_P02" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-56" source="TB_R04" target="TB_P05" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-57" source="TB_R03" target="TB_P09" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-58" source="TB_A01" target="TB_S01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-59" source="TB_A02" target="TB_S02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-60" source="TB_A03" target="TB_S03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-61" source="TB_A03" target="TB_S04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-62" source="TB_A04" target="TB_S06" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-63" source="TB_A02" target="TB_S05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-64" source="TB_S01" target="TB_P01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-65" source="TB_S01" target="TB_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-66" source="TB_S02" target="TB_P03" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-67" source="TB_S03" target="TB_P04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-68" source="TB_S06" target="TB_P05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-69" source="TB_S01" target="TB_P06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-70" source="TB_S04" target="TB_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-71" source="TB_S05" target="TB_A01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-72" source="TB_A01" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-73" source="TB_A03" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-74" source="TB_A02" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-75" source="TB_A04" target="TB_D02" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-76" source="TB_A01" target="TB_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-77" source="TB_A06" target="TB_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-78" source="TB_A01" target="TB_D04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-79" source="TB_A05" target="TB_D04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-80" source="TB_D01" target="TB_BO01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-81" source="TB_D02" target="TB_BO02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-82" source="TB_D03" target="TB_BO03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-83" source="TB_D04" target="TB_BO04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-84" source="TB_A05" target="TB_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-85" source="TB_A06" target="TB_P07" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-86" source="TB_A07" target="TB_P04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-87" source="TB_A01" target="TB_D05" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-88" source="TB_A01" target="TB_D06" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-89" source="TB_T03" target="TB_T05" name="recuperación propuesta" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-90" source="TB_T06" target="TB_P08" name="alcance de autenticación" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-91" source="TB_T01" target="TB_A01" name="ubicacion propuesta" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-92" source="TB_T03" target="TB_A03" name="ubicacion propuesta" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-93" source="TB_T08" target="TB_A02" name="ubicacion propuesta" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-94" source="TB_T02" target="TB_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-95" source="TB_T02" target="TB_A03" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-96" source="TB_T07" target="TB_T02" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-97" source="AS_P07" target="TB_P07" name="BR01 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-98" source="AS_T02" target="TB_T02" name="BR02 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-99" source="AS_A03" target="TB_A03" name="BR03 / Reemplazar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-100" source="AS_S04" target="TB_S04" name="BR04 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-101" source="AS_A02" target="TB_S05" name="BR05 / Nuevo" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-102" source="AS_D01" target="TB_D01" name="BR06 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-103" source="AS_D03" target="TB_D03" name="BR07 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-104" source="AS_A05" target="TB_A05" name="BR08 / Migrar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-105" source="AS_P08" target="TB_P08" name="BR09 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-106" source="AS_T06" target="TB_T06" name="BR10 / Ampliar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-107" source="AS_T05" target="TB_T05" name="BR11 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-108" source="AS_P09" target="TB_P09" name="BR12 / Nuevo" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-109" source="AS_P10" target="TB_P10" name="BR13 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-110" source="AS_P09" target="TB_A08" name="BR14 / Nuevo" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-111" source="AS_P11" target="TB_P11" name="BR15 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-112" source="AS_B01" target="TB_B01" name="BR16 / Modificar" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-113" source="AS_D02" target="TB_D02" name="BR17 / Modificar" />
   </folder>
   <folder id="id-folder-diagrams" name="Views" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="view-AS" name="01 Arquitectura actual">
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-0" archimateElement="AS_P01">
-        <bounds x="40" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-0" archimateElement="AS_BS01" targetConnections="view-AS-con-id-rel-1-view-AS-ob-0">
+        <bounds x="40" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-1" archimateElement="AS_P02">
-        <bounds x="285" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-1" archimateElement="AS_P01" targetConnections="view-AS-con-id-rel-17-view-AS-ob-1">
+        <bounds x="40" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-1-view-AS-ob-0" source="view-AS-ob-1" target="view-AS-ob-0" archimateRelationship="id-rel-1" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-2" archimateElement="AS_P03">
-        <bounds x="530" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-2" archimateElement="AS_BS02" targetConnections="view-AS-con-id-rel-2-view-AS-ob-2">
+        <bounds x="310" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-3" archimateElement="AS_P04">
-        <bounds x="775" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-3" archimateElement="AS_P02" targetConnections="view-AS-con-id-rel-18-view-AS-ob-3 view-AS-con-id-rel-36-view-AS-ob-3">
+        <bounds x="310" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-2-view-AS-ob-2" source="view-AS-ob-3" target="view-AS-ob-2" archimateRelationship="id-rel-2" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-4" archimateElement="AS_P05">
-        <bounds x="40" y="120" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-4" archimateElement="AS_BS03" targetConnections="view-AS-con-id-rel-3-view-AS-ob-4">
+        <bounds x="580" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-5" archimateElement="AS_P06">
-        <bounds x="285" y="120" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-5" archimateElement="AS_P03" targetConnections="view-AS-con-id-rel-19-view-AS-ob-5">
+        <bounds x="580" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-3-view-AS-ob-4" source="view-AS-ob-5" target="view-AS-ob-4" archimateRelationship="id-rel-3" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-6" archimateElement="AS_A01" targetConnections="view-AS-con-id-rel-24 view-AS-con-id-rel-27">
-        <bounds x="40" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-6" archimateElement="AS_BS04" targetConnections="view-AS-con-id-rel-4-view-AS-ob-6">
+        <bounds x="850" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-7" archimateElement="AS_A02">
-        <bounds x="285" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-7" archimateElement="AS_P04" targetConnections="view-AS-con-id-rel-20-view-AS-ob-7 view-AS-con-id-rel-38-view-AS-ob-7">
+        <bounds x="850" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-4-view-AS-ob-6" source="view-AS-ob-7" target="view-AS-ob-6" archimateRelationship="id-rel-4" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-8" archimateElement="AS_A03" targetConnections="view-AS-con-id-rel-25 view-AS-con-id-rel-28">
-        <bounds x="530" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-8" archimateElement="AS_BS05" targetConnections="view-AS-con-id-rel-5-view-AS-ob-8">
+        <bounds x="1120" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-9" archimateElement="AS_A04">
-        <bounds x="775" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-9" archimateElement="AS_P05" targetConnections="view-AS-con-id-rel-21-view-AS-ob-9">
+        <bounds x="1120" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-5-view-AS-ob-8" source="view-AS-ob-9" target="view-AS-ob-8" archimateRelationship="id-rel-5" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-10" archimateElement="AS_A05">
-        <bounds x="40" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-10" archimateElement="AS_BS06" targetConnections="view-AS-con-id-rel-6-view-AS-ob-10">
+        <bounds x="1390" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-11" archimateElement="AS_A06">
-        <bounds x="285" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-11" archimateElement="AS_P06" targetConnections="view-AS-con-id-rel-22-view-AS-ob-11">
+        <bounds x="1390" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-6-view-AS-ob-10" source="view-AS-ob-11" target="view-AS-ob-10" archimateRelationship="id-rel-6" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-12" archimateElement="AS_A07">
-        <bounds x="530" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-12" archimateElement="AS_S01" targetConnections="view-AS-con-id-rel-12-view-AS-ob-12">
+        <bounds x="40" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-17-view-AS-ob-1" source="view-AS-ob-12" target="view-AS-ob-1" archimateRelationship="id-rel-17" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-18-view-AS-ob-3" source="view-AS-ob-12" target="view-AS-ob-3" archimateRelationship="id-rel-18" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-22-view-AS-ob-11" source="view-AS-ob-12" target="view-AS-ob-11" archimateRelationship="id-rel-22" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-13" archimateElement="AS_T01">
-        <bounds x="40" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-24" source="view-AS-ob-13" target="view-AS-ob-6" archimateRelationship="id-rel-24" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-13" archimateElement="AS_S02" targetConnections="view-AS-con-id-rel-13-view-AS-ob-13">
+        <bounds x="580" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-19-view-AS-ob-5" source="view-AS-ob-13" target="view-AS-ob-5" archimateRelationship="id-rel-19" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-14" archimateElement="AS_T02">
-        <bounds x="285" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-27" source="view-AS-ob-14" target="view-AS-ob-6" archimateRelationship="id-rel-27" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-28" source="view-AS-ob-14" target="view-AS-ob-8" archimateRelationship="id-rel-28" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-14" archimateElement="AS_S03" targetConnections="view-AS-con-id-rel-14-view-AS-ob-14">
+        <bounds x="850" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-20-view-AS-ob-7" source="view-AS-ob-14" target="view-AS-ob-7" archimateRelationship="id-rel-20" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-15" archimateElement="AS_T03">
-        <bounds x="530" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-25" source="view-AS-ob-15" target="view-AS-ob-8" archimateRelationship="id-rel-25" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-15" archimateElement="AS_S06" targetConnections="view-AS-con-id-rel-16-view-AS-ob-15">
+        <bounds x="1120" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-21-view-AS-ob-9" source="view-AS-ob-15" target="view-AS-ob-9" archimateRelationship="id-rel-21" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-16" archimateElement="AS_T04">
-        <bounds x="775" y="470" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-16" archimateElement="AS_S04" targetConnections="view-AS-con-id-rel-15-view-AS-ob-16">
+        <bounds x="1390" y="495" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-23-view-AS-ob-17" source="view-AS-ob-16" target="view-AS-ob-17" archimateRelationship="id-rel-23" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-17" archimateElement="AS_T05">
-        <bounds x="40" y="560" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-17" archimateElement="AS_A01" targetConnections="view-AS-con-id-rel-23-view-AS-ob-17 view-AS-con-id-rel-41-view-AS-ob-17 view-AS-con-id-rel-44-view-AS-ob-17">
+        <bounds x="40" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-12-view-AS-ob-12" source="view-AS-ob-17" target="view-AS-ob-12" archimateRelationship="id-rel-12" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-18" archimateElement="AS_T06">
-        <bounds x="285" y="560" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-18" archimateElement="AS_A05">
+        <bounds x="310" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-36-view-AS-ob-3" source="view-AS-ob-18" target="view-AS-ob-3" archimateRelationship="id-rel-36" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-19" archimateElement="AS_A02" targetConnections="view-AS-con-id-rel-43-view-AS-ob-19">
+        <bounds x="580" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-13-view-AS-ob-13" source="view-AS-ob-19" target="view-AS-ob-13" archimateRelationship="id-rel-13" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-20" archimateElement="AS_A03" targetConnections="view-AS-con-id-rel-42-view-AS-ob-20 view-AS-con-id-rel-45-view-AS-ob-20">
+        <bounds x="850" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-14-view-AS-ob-14" source="view-AS-ob-20" target="view-AS-ob-14" archimateRelationship="id-rel-14" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-15-view-AS-ob-16" source="view-AS-ob-20" target="view-AS-ob-16" archimateRelationship="id-rel-15" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-21" archimateElement="AS_A04">
+        <bounds x="1120" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-16-view-AS-ob-15" source="view-AS-ob-21" target="view-AS-ob-15" archimateRelationship="id-rel-16" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-22" archimateElement="AS_A07">
+        <bounds x="1390" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-38-view-AS-ob-7" source="view-AS-ob-22" target="view-AS-ob-7" archimateRelationship="id-rel-38" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-23" archimateElement="AS_T01">
+        <bounds x="40" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-41-view-AS-ob-17" source="view-AS-ob-23" target="view-AS-ob-17" archimateRelationship="id-rel-41" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-24" archimateElement="AS_T02" targetConnections="view-AS-con-id-rel-46-view-AS-ob-24">
+        <bounds x="445" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-44-view-AS-ob-17" source="view-AS-ob-24" target="view-AS-ob-17" archimateRelationship="id-rel-44" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-45-view-AS-ob-20" source="view-AS-ob-24" target="view-AS-ob-20" archimateRelationship="id-rel-45" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-25" archimateElement="AS_T08">
+        <bounds x="850" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-43-view-AS-ob-19" source="view-AS-ob-25" target="view-AS-ob-19" archimateRelationship="id-rel-43" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-26" archimateElement="AS_T03">
+        <bounds x="1120" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-39-view-AS-ob-29" source="view-AS-ob-26" target="view-AS-ob-29" archimateRelationship="id-rel-39" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-42-view-AS-ob-20" source="view-AS-ob-26" target="view-AS-ob-20" archimateRelationship="id-rel-42" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-27" archimateElement="AS_T04">
+        <bounds x="1390" y="775" width="235" height="75" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-28" archimateElement="AS_T07">
+        <bounds x="445" y="910" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-46-view-AS-ob-24" source="view-AS-ob-28" target="view-AS-ob-24" archimateRelationship="id-rel-46" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-29" archimateElement="AS_T05" targetConnections="view-AS-con-id-rel-39-view-AS-ob-29">
+        <bounds x="1120" y="910" width="235" height="75" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-AS-note-0">
+        <bounds x="40" y="0" width="1585" height="60" />
+        <content>01 Arquitectura actual | Caso 09 | Negocio → Aplicación → Tecnología. AS documentado; TB propuesto. Controles y brechas adicionales: vistas 04 a 07.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="view-TB" name="02 Arquitectura objetivo">
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-0" archimateElement="TB_P01">
-        <bounds x="40" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-0" archimateElement="TB_BS01" targetConnections="view-TB-con-id-rel-47-view-TB-ob-0">
+        <bounds x="40" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-1" archimateElement="TB_P02">
-        <bounds x="285" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-1" archimateElement="TB_P01" targetConnections="view-TB-con-id-rel-64-view-TB-ob-1">
+        <bounds x="40" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-47-view-TB-ob-0" source="view-TB-ob-1" target="view-TB-ob-0" archimateRelationship="id-rel-47" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-2" archimateElement="TB_P03">
-        <bounds x="530" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-2" archimateElement="TB_BS02" targetConnections="view-TB-con-id-rel-48-view-TB-ob-2">
+        <bounds x="310" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-3" archimateElement="TB_P04">
-        <bounds x="775" y="30" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-3" archimateElement="TB_P02" targetConnections="view-TB-con-id-rel-65-view-TB-ob-3 view-TB-con-id-rel-84-view-TB-ob-3">
+        <bounds x="310" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-48-view-TB-ob-2" source="view-TB-ob-3" target="view-TB-ob-2" archimateRelationship="id-rel-48" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-4" archimateElement="TB_P05">
-        <bounds x="40" y="120" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-4" archimateElement="TB_BS03" targetConnections="view-TB-con-id-rel-49-view-TB-ob-4">
+        <bounds x="580" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-5" archimateElement="TB_P06">
-        <bounds x="285" y="120" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-5" archimateElement="TB_P03" targetConnections="view-TB-con-id-rel-66-view-TB-ob-5">
+        <bounds x="580" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-49-view-TB-ob-4" source="view-TB-ob-5" target="view-TB-ob-4" archimateRelationship="id-rel-49" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-6" archimateElement="TB_A01" targetConnections="view-TB-con-id-rel-57 view-TB-con-id-rel-60">
-        <bounds x="40" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-6" archimateElement="TB_BS04" targetConnections="view-TB-con-id-rel-50-view-TB-ob-6">
+        <bounds x="850" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-7" archimateElement="TB_A02">
-        <bounds x="285" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-7" archimateElement="TB_P04" targetConnections="view-TB-con-id-rel-67-view-TB-ob-7 view-TB-con-id-rel-86-view-TB-ob-7">
+        <bounds x="850" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-50-view-TB-ob-6" source="view-TB-ob-7" target="view-TB-ob-6" archimateRelationship="id-rel-50" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-8" archimateElement="TB_A03" targetConnections="view-TB-con-id-rel-58 view-TB-con-id-rel-61">
-        <bounds x="530" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-8" archimateElement="TB_BS05" targetConnections="view-TB-con-id-rel-51-view-TB-ob-8">
+        <bounds x="1120" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-9" archimateElement="TB_A04">
-        <bounds x="775" y="250" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-9" archimateElement="TB_P05" targetConnections="view-TB-con-id-rel-68-view-TB-ob-9">
+        <bounds x="1120" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-51-view-TB-ob-8" source="view-TB-ob-9" target="view-TB-ob-8" archimateRelationship="id-rel-51" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-10" archimateElement="TB_A05">
-        <bounds x="40" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-10" archimateElement="TB_BS06" targetConnections="view-TB-con-id-rel-52-view-TB-ob-10">
+        <bounds x="1390" y="90" width="235" height="65" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-11" archimateElement="TB_A06">
-        <bounds x="285" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-11" archimateElement="TB_P06" targetConnections="view-TB-con-id-rel-69-view-TB-ob-11">
+        <bounds x="1390" y="215" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-52-view-TB-ob-10" source="view-TB-ob-11" target="view-TB-ob-10" archimateRelationship="id-rel-52" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-12" archimateElement="TB_A07">
-        <bounds x="530" y="340" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-12" archimateElement="TB_S01" targetConnections="view-TB-con-id-rel-58-view-TB-ob-12">
+        <bounds x="40" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-64-view-TB-ob-1" source="view-TB-ob-12" target="view-TB-ob-1" archimateRelationship="id-rel-64" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-65-view-TB-ob-3" source="view-TB-ob-12" target="view-TB-ob-3" archimateRelationship="id-rel-65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-69-view-TB-ob-11" source="view-TB-ob-12" target="view-TB-ob-11" archimateRelationship="id-rel-69" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-13" archimateElement="TB_T01">
-        <bounds x="40" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-57" source="view-TB-ob-13" target="view-TB-ob-6" archimateRelationship="id-rel-57" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-13" archimateElement="TB_S02" targetConnections="view-TB-con-id-rel-59-view-TB-ob-13">
+        <bounds x="580" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-66-view-TB-ob-5" source="view-TB-ob-13" target="view-TB-ob-5" archimateRelationship="id-rel-66" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-14" archimateElement="TB_T02">
-        <bounds x="285" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-60" source="view-TB-ob-14" target="view-TB-ob-6" archimateRelationship="id-rel-60" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-61" source="view-TB-ob-14" target="view-TB-ob-8" archimateRelationship="id-rel-61" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-14" archimateElement="TB_S03" targetConnections="view-TB-con-id-rel-60-view-TB-ob-14">
+        <bounds x="850" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-67-view-TB-ob-7" source="view-TB-ob-14" target="view-TB-ob-7" archimateRelationship="id-rel-67" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-15" archimateElement="TB_T03">
-        <bounds x="530" y="470" width="220" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-58" source="view-TB-ob-15" target="view-TB-ob-8" archimateRelationship="id-rel-58" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-15" archimateElement="TB_S06" targetConnections="view-TB-con-id-rel-62-view-TB-ob-15">
+        <bounds x="1120" y="365" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-68-view-TB-ob-9" source="view-TB-ob-15" target="view-TB-ob-9" archimateRelationship="id-rel-68" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-16" archimateElement="TB_T04">
-        <bounds x="775" y="470" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-16" archimateElement="TB_S04" targetConnections="view-TB-con-id-rel-61-view-TB-ob-16">
+        <bounds x="1390" y="495" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-70-view-TB-ob-17" source="view-TB-ob-16" target="view-TB-ob-17" archimateRelationship="id-rel-70" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-17" archimateElement="TB_T05">
-        <bounds x="40" y="560" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-17" archimateElement="TB_A01" targetConnections="view-TB-con-id-rel-70-view-TB-ob-17 view-TB-con-id-rel-71-view-TB-ob-17 view-TB-con-id-rel-91-view-TB-ob-17 view-TB-con-id-rel-94-view-TB-ob-17">
+        <bounds x="40" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-58-view-TB-ob-12" source="view-TB-ob-17" target="view-TB-ob-12" archimateRelationship="id-rel-58" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-18" archimateElement="TB_T06">
-        <bounds x="285" y="560" width="220" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-18" archimateElement="TB_A05">
+        <bounds x="310" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-84-view-TB-ob-3" source="view-TB-ob-18" target="view-TB-ob-3" archimateRelationship="id-rel-84" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-19" archimateElement="TB_A02" targetConnections="view-TB-con-id-rel-93-view-TB-ob-19">
+        <bounds x="580" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-59-view-TB-ob-13" source="view-TB-ob-19" target="view-TB-ob-13" archimateRelationship="id-rel-59" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-63-view-TB-ob-30" source="view-TB-ob-19" target="view-TB-ob-30" archimateRelationship="id-rel-63" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-20" archimateElement="TB_A03" targetConnections="view-TB-con-id-rel-92-view-TB-ob-20 view-TB-con-id-rel-95-view-TB-ob-20">
+        <bounds x="850" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-60-view-TB-ob-14" source="view-TB-ob-20" target="view-TB-ob-14" archimateRelationship="id-rel-60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-61-view-TB-ob-16" source="view-TB-ob-20" target="view-TB-ob-16" archimateRelationship="id-rel-61" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-21" archimateElement="TB_A04">
+        <bounds x="1120" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-62-view-TB-ob-15" source="view-TB-ob-21" target="view-TB-ob-15" archimateRelationship="id-rel-62" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-22" archimateElement="TB_A07">
+        <bounds x="1390" y="615" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-86-view-TB-ob-7" source="view-TB-ob-22" target="view-TB-ob-7" archimateRelationship="id-rel-86" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-23" archimateElement="TB_T01">
+        <bounds x="40" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-91-view-TB-ob-17" source="view-TB-ob-23" target="view-TB-ob-17" archimateRelationship="id-rel-91" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-24" archimateElement="TB_T02" targetConnections="view-TB-con-id-rel-96-view-TB-ob-24">
+        <bounds x="445" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-94-view-TB-ob-17" source="view-TB-ob-24" target="view-TB-ob-17" archimateRelationship="id-rel-94" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-95-view-TB-ob-20" source="view-TB-ob-24" target="view-TB-ob-20" archimateRelationship="id-rel-95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-25" archimateElement="TB_T08">
+        <bounds x="850" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-93-view-TB-ob-19" source="view-TB-ob-25" target="view-TB-ob-19" archimateRelationship="id-rel-93" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-26" archimateElement="TB_T03">
+        <bounds x="1120" y="775" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-89-view-TB-ob-29" source="view-TB-ob-26" target="view-TB-ob-29" archimateRelationship="id-rel-89" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-92-view-TB-ob-20" source="view-TB-ob-26" target="view-TB-ob-20" archimateRelationship="id-rel-92" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-27" archimateElement="TB_T04">
+        <bounds x="1390" y="775" width="235" height="75" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-28" archimateElement="TB_T07">
+        <bounds x="445" y="910" width="235" height="75" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-96-view-TB-ob-24" source="view-TB-ob-28" target="view-TB-ob-24" archimateRelationship="id-rel-96" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-29" archimateElement="TB_T05" targetConnections="view-TB-con-id-rel-89-view-TB-ob-29">
+        <bounds x="1120" y="910" width="235" height="75" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-30" archimateElement="TB_S05" targetConnections="view-TB-con-id-rel-63-view-TB-ob-30">
+        <bounds x="580" y="495" width="235" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-71-view-TB-ob-17" source="view-TB-ob-30" target="view-TB-ob-17" archimateRelationship="id-rel-71" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-TB-note-0">
+        <bounds x="40" y="0" width="1585" height="60" />
+        <content>02 Arquitectura objetivo | Caso 09 | Negocio → Aplicación → Tecnología. AS documentado; TB propuesto. Controles y brechas adicionales: vistas 04 a 07.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="view-coop" name="03 Cooperacion proceso aplicacion">
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-0" archimateElement="AS_P01" targetConnections="view-coop-con-id-rel-9">
-        <bounds x="30" y="30" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-0" archimateElement="AS_P01" targetConnections="view-coop-con-id-rel-17-view-coop-ob-0">
+        <bounds x="40" y="250" width="280" height="70" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-1" archimateElement="AS_P02" targetConnections="view-coop-con-id-rel-10">
-        <bounds x="30" y="130" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-1" archimateElement="AS_S01" targetConnections="view-coop-con-id-rel-12-view-coop-ob-1">
+        <bounds x="380" y="250" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-17-view-coop-ob-0" source="view-coop-ob-1" target="view-coop-ob-0" archimateRelationship="id-rel-17" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-2" archimateElement="AS_P03" targetConnections="view-coop-con-id-rel-11">
-        <bounds x="30" y="230" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-2" archimateElement="AS_A01">
+        <bounds x="720" y="250" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-12-view-coop-ob-1" source="view-coop-ob-2" target="view-coop-ob-1" archimateRelationship="id-rel-12" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-3" archimateElement="AS_P04" targetConnections="view-coop-con-id-rel-12">
-        <bounds x="30" y="330" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-3" archimateElement="AS_P02" targetConnections="view-coop-con-id-rel-18-view-coop-ob-3 view-coop-con-id-rel-36-view-coop-ob-3">
+        <bounds x="40" y="420" width="280" height="70" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-4" archimateElement="AS_P05" targetConnections="view-coop-con-id-rel-13">
-        <bounds x="30" y="430" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-4" archimateElement="AS_S01" targetConnections="view-coop-con-id-rel-12-view-coop-ob-4">
+        <bounds x="380" y="420" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-18-view-coop-ob-3" source="view-coop-ob-4" target="view-coop-ob-3" archimateRelationship="id-rel-18" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-5" archimateElement="AS_P06" targetConnections="view-coop-con-id-rel-14">
-        <bounds x="30" y="530" width="250" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-5" archimateElement="AS_A01">
+        <bounds x="720" y="420" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-12-view-coop-ob-4" source="view-coop-ob-5" target="view-coop-ob-4" archimateRelationship="id-rel-12" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-6" archimateElement="AS_S01">
-        <bounds x="390" y="30" width="250" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-9" source="view-coop-ob-6" target="view-coop-ob-0" archimateRelationship="id-rel-9" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-10" source="view-coop-ob-6" target="view-coop-ob-1" archimateRelationship="id-rel-10" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-14" source="view-coop-ob-6" target="view-coop-ob-5" archimateRelationship="id-rel-14" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-6" archimateElement="AS_P03" targetConnections="view-coop-con-id-rel-19-view-coop-ob-6">
+        <bounds x="40" y="590" width="280" height="70" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-7" archimateElement="AS_S02">
-        <bounds x="390" y="130" width="250" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-11" source="view-coop-ob-7" target="view-coop-ob-2" archimateRelationship="id-rel-11" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-7" archimateElement="AS_S02" targetConnections="view-coop-con-id-rel-13-view-coop-ob-7">
+        <bounds x="380" y="590" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-19-view-coop-ob-6" source="view-coop-ob-7" target="view-coop-ob-6" archimateRelationship="id-rel-19" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-8" archimateElement="AS_S03">
-        <bounds x="390" y="230" width="250" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-12" source="view-coop-ob-8" target="view-coop-ob-3" archimateRelationship="id-rel-12" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-8" archimateElement="AS_A02">
+        <bounds x="720" y="590" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-13-view-coop-ob-7" source="view-coop-ob-8" target="view-coop-ob-7" archimateRelationship="id-rel-13" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-9" archimateElement="AS_S06">
-        <bounds x="390" y="330" width="250" height="65" />
-        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-13" source="view-coop-ob-9" target="view-coop-ob-4" archimateRelationship="id-rel-13" />
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-9" archimateElement="AS_P04" targetConnections="view-coop-con-id-rel-20-view-coop-ob-9 view-coop-con-id-rel-38-view-coop-ob-9">
+        <bounds x="40" y="760" width="280" height="70" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-10" archimateElement="AS_S03" targetConnections="view-coop-con-id-rel-14-view-coop-ob-10">
+        <bounds x="380" y="760" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-20-view-coop-ob-9" source="view-coop-ob-10" target="view-coop-ob-9" archimateRelationship="id-rel-20" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-11" archimateElement="AS_A03">
+        <bounds x="720" y="760" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-14-view-coop-ob-10" source="view-coop-ob-11" target="view-coop-ob-10" archimateRelationship="id-rel-14" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-12" archimateElement="AS_P05" targetConnections="view-coop-con-id-rel-21-view-coop-ob-12">
+        <bounds x="40" y="930" width="280" height="70" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-13" archimateElement="AS_S06" targetConnections="view-coop-con-id-rel-16-view-coop-ob-13">
+        <bounds x="380" y="930" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-21-view-coop-ob-12" source="view-coop-ob-13" target="view-coop-ob-12" archimateRelationship="id-rel-21" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-14" archimateElement="AS_A04">
+        <bounds x="720" y="930" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-16-view-coop-ob-13" source="view-coop-ob-14" target="view-coop-ob-13" archimateRelationship="id-rel-16" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-15" archimateElement="AS_P06" targetConnections="view-coop-con-id-rel-22-view-coop-ob-15">
+        <bounds x="40" y="1100" width="280" height="70" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-16" archimateElement="AS_S01" targetConnections="view-coop-con-id-rel-12-view-coop-ob-16">
+        <bounds x="380" y="1100" width="270" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-22-view-coop-ob-15" source="view-coop-ob-16" target="view-coop-ob-15" archimateRelationship="id-rel-22" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-17" archimateElement="AS_A01">
+        <bounds x="720" y="1100" width="260" height="70" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-12-view-coop-ob-16" source="view-coop-ob-17" target="view-coop-ob-16" archimateRelationship="id-rel-12" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-18" archimateElement="AS_A05">
+        <bounds x="720" y="500" width="260" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-36-view-coop-ob-3" source="view-coop-ob-18" target="view-coop-ob-3" archimateRelationship="id-rel-36" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-19" archimateElement="AS_A07">
+        <bounds x="720" y="840" width="260" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-38-view-coop-ob-9" source="view-coop-ob-19" target="view-coop-ob-9" archimateRelationship="id-rel-38" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-0">
+        <bounds x="40" y="20" width="1470" height="65" />
+        <content>Cooperación AS: 6 con soporte; 1 deficiente, 4 parciales, 1 adecuado según inventario. Evaluación analítica; no es medición de SLA.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-1">
+        <bounds x="1040" y="250" width="470" height="95" />
+        <content>Adecuado segun inventario: La ficha no documenta deficiencia del soporte directo; control de proveedores TI se analiza como proceso auxiliar</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-2">
+        <bounds x="1040" y="420" width="470" height="95" />
+        <content>Parcial: Horas facturables diferentes entre informe al cliente y ERP; dependencia de enlace sin respaldo efectivo</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-3">
+        <bounds x="1040" y="590" width="470" height="95" />
+        <content>Parcial: Soporte especializado existente; no hay integracion al ERP y personal presenta conteos de distinta cobertura</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-4">
+        <bounds x="1040" y="760" width="470" height="95" />
+        <content>Deficiente: Integracion mantenida con exempleado; archivo mensual al ERP y reporte al cliente discrepante</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-5">
+        <bounds x="1040" y="930" width="470" height="95" />
+        <content>Parcial: Horas de equipo distintas entre ERP y libro; registro cliente con diferente alcance</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-coop-note-6">
+        <bounds x="1040" y="1100" width="470" height="95" />
+        <content>Parcial: Horas facturables del informe y ERP diferentes; no se acredita error en todos los comprobantes</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="view-data" name="04 Informacion actual y objetivo">
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-0" archimateElement="AS_D01">
-        <bounds x="30" y="30" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-0" archimateElement="AS_D01" targetConnections="view-data-con-id-rel-24-view-data-ob-0 view-data-con-id-rel-25-view-data-ob-0 view-data-con-id-rel-26-view-data-ob-0">
+        <bounds x="370" y="200" width="290" height="80" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-1" archimateElement="AS_D02">
-        <bounds x="30" y="130" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-1" archimateElement="AS_A01">
+        <bounds x="40" y="140" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-24-view-data-ob-0" source="view-data-ob-1" target="view-data-ob-0" archimateRelationship="id-rel-24" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-2" archimateElement="AS_D03">
-        <bounds x="30" y="230" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-2" archimateElement="AS_A02">
+        <bounds x="40" y="210" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-26-view-data-ob-0" source="view-data-ob-2" target="view-data-ob-0" archimateRelationship="id-rel-26" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-3" archimateElement="AS_D04">
-        <bounds x="30" y="330" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-3" archimateElement="AS_A03">
+        <bounds x="40" y="280" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-25-view-data-ob-0" source="view-data-ob-3" target="view-data-ob-0" archimateRelationship="id-rel-25" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-4" archimateElement="AS_D05">
-        <bounds x="30" y="430" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-4" archimateElement="AS_D02" targetConnections="view-data-con-id-rel-27-view-data-ob-4">
+        <bounds x="370" y="450" width="290" height="80" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-5" archimateElement="AS_D06">
-        <bounds x="30" y="530" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-5" archimateElement="AS_A04">
+        <bounds x="40" y="390" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-27-view-data-ob-4" source="view-data-ob-5" target="view-data-ob-4" archimateRelationship="id-rel-27" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-6" archimateElement="TB_D01">
-        <bounds x="430" y="30" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-6" archimateElement="AS_D03" targetConnections="view-data-con-id-rel-28-view-data-ob-6 view-data-con-id-rel-29-view-data-ob-6">
+        <bounds x="370" y="700" width="290" height="80" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-7" archimateElement="TB_D02">
-        <bounds x="430" y="130" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-7" archimateElement="AS_A01">
+        <bounds x="40" y="640" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-28-view-data-ob-6" source="view-data-ob-7" target="view-data-ob-6" archimateRelationship="id-rel-28" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-8" archimateElement="TB_D03">
-        <bounds x="430" y="230" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-8" archimateElement="AS_A06">
+        <bounds x="40" y="710" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-29-view-data-ob-6" source="view-data-ob-8" target="view-data-ob-6" archimateRelationship="id-rel-29" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-9" archimateElement="TB_D04">
-        <bounds x="430" y="330" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-9" archimateElement="AS_D04" targetConnections="view-data-con-id-rel-30-view-data-ob-9 view-data-con-id-rel-31-view-data-ob-9">
+        <bounds x="370" y="950" width="290" height="80" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-10" archimateElement="TB_D05">
-        <bounds x="430" y="430" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-10" archimateElement="AS_A01">
+        <bounds x="40" y="890" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-30-view-data-ob-9" source="view-data-ob-10" target="view-data-ob-9" archimateRelationship="id-rel-30" />
       </child>
-      <child xsi:type="archimate:DiagramObject" id="view-data-ob-11" archimateElement="TB_D06">
-        <bounds x="430" y="530" width="330" height="65" />
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-11" archimateElement="AS_A05">
+        <bounds x="40" y="960" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-31-view-data-ob-9" source="view-data-ob-11" target="view-data-ob-9" archimateRelationship="id-rel-31" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-12" archimateElement="AS_D05">
+        <bounds x="370" y="1200" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-13" archimateElement="AS_D06">
+        <bounds x="370" y="1450" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-14" archimateElement="TB_D01" targetConnections="view-data-con-id-rel-72-view-data-ob-14 view-data-con-id-rel-73-view-data-ob-14 view-data-con-id-rel-74-view-data-ob-14">
+        <bounds x="1810" y="200" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-15" archimateElement="TB_A01">
+        <bounds x="1480" y="140" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-72-view-data-ob-14" source="view-data-ob-15" target="view-data-ob-14" archimateRelationship="id-rel-72" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-16" archimateElement="TB_A02">
+        <bounds x="1480" y="210" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-74-view-data-ob-14" source="view-data-ob-16" target="view-data-ob-14" archimateRelationship="id-rel-74" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-17" archimateElement="TB_A03">
+        <bounds x="1480" y="280" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-73-view-data-ob-14" source="view-data-ob-17" target="view-data-ob-14" archimateRelationship="id-rel-73" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-18" archimateElement="TB_D02" targetConnections="view-data-con-id-rel-75-view-data-ob-18">
+        <bounds x="1810" y="450" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-19" archimateElement="TB_A04">
+        <bounds x="1480" y="390" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-75-view-data-ob-18" source="view-data-ob-19" target="view-data-ob-18" archimateRelationship="id-rel-75" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-20" archimateElement="TB_D03" targetConnections="view-data-con-id-rel-76-view-data-ob-20 view-data-con-id-rel-77-view-data-ob-20">
+        <bounds x="1810" y="700" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-21" archimateElement="TB_A01">
+        <bounds x="1480" y="640" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-76-view-data-ob-20" source="view-data-ob-21" target="view-data-ob-20" archimateRelationship="id-rel-76" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-22" archimateElement="TB_A06">
+        <bounds x="1480" y="710" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-77-view-data-ob-20" source="view-data-ob-22" target="view-data-ob-20" archimateRelationship="id-rel-77" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-23" archimateElement="TB_D04" targetConnections="view-data-con-id-rel-78-view-data-ob-23 view-data-con-id-rel-79-view-data-ob-23">
+        <bounds x="1810" y="950" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-24" archimateElement="TB_A01">
+        <bounds x="1480" y="890" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-78-view-data-ob-23" source="view-data-ob-24" target="view-data-ob-23" archimateRelationship="id-rel-78" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-25" archimateElement="TB_A05">
+        <bounds x="1480" y="960" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-79-view-data-ob-23" source="view-data-ob-25" target="view-data-ob-23" archimateRelationship="id-rel-79" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-26" archimateElement="TB_D05" targetConnections="view-data-con-id-rel-87-view-data-ob-26">
+        <bounds x="1810" y="1200" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-27" archimateElement="TB_A01">
+        <bounds x="1480" y="1140" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-87-view-data-ob-26" source="view-data-ob-27" target="view-data-ob-26" archimateRelationship="id-rel-87" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-28" archimateElement="TB_D06" targetConnections="view-data-con-id-rel-88-view-data-ob-28">
+        <bounds x="1810" y="1450" width="290" height="80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-29" archimateElement="TB_A01">
+        <bounds x="1480" y="1390" width="270" height="60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-data-con-id-rel-88-view-data-ob-28" source="view-data-ob-29" target="view-data-ob-28" archimateRelationship="id-rel-88" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-0">
+        <bounds x="40" y="20" width="2800" height="70" />
+        <content>Información AS / TB: aplicaciones → datos; fuentes, dueños y límites documentados. Proveedor/Pago: origen actual desconocido; no se inventa un sistema operativo.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-1">
+        <bounds x="700" y="155" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente autoritativa; Operaciones como responsable de hecho. Conteos 420, hasta 700, 480, 420.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-2">
+        <bounds x="700" y="405" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Superintendente de Mantenimiento; 310,310,290. Horas discrepantes.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-3">
+        <bounds x="700" y="655" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente ni dueno; 140 en cada ubicacion, sin control efectivo de vigencia.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-4">
+        <bounds x="700" y="905" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Gerente de Operaciones; 36 por anio, sin desglose por sistema.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-5">
+        <bounds x="700" y="1155" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado proveedores.csv con 210 registros. Sistema origen y dueno no documentados.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-6">
+        <bounds x="700" y="1405" width="700" height="180" />
+        <content>AS | Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado pagos.csv con 25185 registros. Sistema origen y dueno no documentados.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-7">
+        <bounds x="2140" y="155" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de personal validado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de RRHH con Operaciones como custodio del control de campamento. Pendiente de ratificación.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-8">
+        <bounds x="2140" y="405" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP mantenimiento. Dueño propuesto: Superintendente de mantenimiento. Pendiente de ratificación.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-9">
+        <bounds x="2140" y="655" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro contractual controlado en ERP sujeto a verificacion de modulos. Dueño propuesto: Responsable de Compras y Contratos con validacion Legal. Pendiente de ratificación.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-10">
+        <bounds x="2140" y="905" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: ERP proyectos. Dueño propuesto: Gerente de operaciones. Pendiente de ratificación.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-11">
+        <bounds x="2140" y="1155" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Maestro de proveedores del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Compras propuesto. Pendiente de ratificación.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-data-note-12">
+        <bounds x="2140" y="1405" width="700" height="180" />
+        <content>TB | Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente propuesta: Registro financiero del ERP propuesto sujeto a validacion. Dueño propuesto: Responsable de Finanzas propuesto. Pendiente de ratificación.</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-AS-gov" name="05 Gobierno actual">
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-0" archimateElement="AS_R01">
+        <bounds x="40" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-1" archimateElement="AS_R02">
+        <bounds x="390" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-2" archimateElement="AS_R03">
+        <bounds x="740" y="120" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-11-view-AS-gov-ob-6" source="view-AS-gov-ob-2" target="view-AS-gov-ob-6" archimateRelationship="id-rel-11" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-3" archimateElement="AS_R04">
+        <bounds x="1090" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-4" archimateElement="AS_P07" targetConnections="view-AS-gov-con-id-rel-37-view-AS-gov-ob-4">
+        <bounds x="40" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-5" archimateElement="AS_P08" targetConnections="view-AS-gov-con-id-rel-40-view-AS-gov-ob-5">
+        <bounds x="390" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-6" archimateElement="AS_P09" targetConnections="view-AS-gov-con-id-rel-11-view-AS-gov-ob-6">
+        <bounds x="740" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-7" archimateElement="AS_P10">
+        <bounds x="1090" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-8" archimateElement="AS_P11">
+        <bounds x="40" y="440" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-9" archimateElement="AS_B01">
+        <bounds x="390" y="440" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-10" archimateElement="AS_A06">
+        <bounds x="740" y="440" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-29-view-AS-gov-ob-18" source="view-AS-gov-ob-10" target="view-AS-gov-ob-18" archimateRelationship="id-rel-29" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-37-view-AS-gov-ob-4" source="view-AS-gov-ob-10" target="view-AS-gov-ob-4" archimateRelationship="id-rel-37" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-11" archimateElement="AS_T06">
+        <bounds x="1090" y="440" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-40-view-AS-gov-ob-5" source="view-AS-gov-ob-11" target="view-AS-gov-ob-5" archimateRelationship="id-rel-40" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-12" archimateElement="AS_BO01" targetConnections="view-AS-gov-con-id-rel-32-view-AS-gov-ob-12">
+        <bounds x="40" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-13" archimateElement="AS_BO02" targetConnections="view-AS-gov-con-id-rel-33-view-AS-gov-ob-13">
+        <bounds x="390" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-14" archimateElement="AS_BO03" targetConnections="view-AS-gov-con-id-rel-34-view-AS-gov-ob-14">
+        <bounds x="740" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-15" archimateElement="AS_BO04" targetConnections="view-AS-gov-con-id-rel-35-view-AS-gov-ob-15">
+        <bounds x="1090" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-16" archimateElement="AS_D01">
+        <bounds x="40" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-32-view-AS-gov-ob-12" source="view-AS-gov-ob-16" target="view-AS-gov-ob-12" archimateRelationship="id-rel-32" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-17" archimateElement="AS_D02">
+        <bounds x="390" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-33-view-AS-gov-ob-13" source="view-AS-gov-ob-17" target="view-AS-gov-ob-13" archimateRelationship="id-rel-33" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-18" archimateElement="AS_D03" targetConnections="view-AS-gov-con-id-rel-29-view-AS-gov-ob-18">
+        <bounds x="740" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-34-view-AS-gov-ob-14" source="view-AS-gov-ob-18" target="view-AS-gov-ob-14" archimateRelationship="id-rel-34" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-gov-ob-19" archimateElement="AS_D04">
+        <bounds x="1090" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-gov-con-id-rel-35-view-AS-gov-ob-15" source="view-AS-gov-ob-19" target="view-AS-gov-ob-15" archimateRelationship="id-rel-35" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-AS-gov-note-0">
+        <bounds x="40" y="20" width="1340" height="60" />
+        <content>05 Gobierno actual | Roles, controles y objetos de negocio. Fuente: FICHA B/C/F/H e inventario. Propuestas TB no implantadas.</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-TB-gov" name="06 Gobierno objetivo">
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-0" archimateElement="TB_R01">
+        <bounds x="40" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-1" archimateElement="TB_R02">
+        <bounds x="390" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-2" archimateElement="TB_R03">
+        <bounds x="740" y="120" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-57-view-TB-gov-ob-6" source="view-TB-gov-ob-2" target="view-TB-gov-ob-6" archimateRelationship="id-rel-57" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-3" archimateElement="TB_R04">
+        <bounds x="1090" y="120" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-4" archimateElement="TB_P07" targetConnections="view-TB-gov-con-id-rel-85-view-TB-gov-ob-4">
+        <bounds x="40" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-5" archimateElement="TB_P08" targetConnections="view-TB-gov-con-id-rel-90-view-TB-gov-ob-5">
+        <bounds x="390" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-6" archimateElement="TB_P09" targetConnections="view-TB-gov-con-id-rel-57-view-TB-gov-ob-6">
+        <bounds x="740" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-7" archimateElement="TB_P10">
+        <bounds x="1090" y="280" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-8" archimateElement="TB_P11">
+        <bounds x="40" y="440" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-9" archimateElement="TB_B01">
+        <bounds x="390" y="440" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-10" archimateElement="TB_A06">
+        <bounds x="740" y="440" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-77-view-TB-gov-ob-19" source="view-TB-gov-ob-10" target="view-TB-gov-ob-19" archimateRelationship="id-rel-77" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-85-view-TB-gov-ob-4" source="view-TB-gov-ob-10" target="view-TB-gov-ob-4" archimateRelationship="id-rel-85" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-11" archimateElement="TB_T06">
+        <bounds x="1090" y="440" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-90-view-TB-gov-ob-5" source="view-TB-gov-ob-11" target="view-TB-gov-ob-5" archimateRelationship="id-rel-90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-12" archimateElement="TB_A08">
+        <bounds x="40" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-13" archimateElement="TB_BO01" targetConnections="view-TB-gov-con-id-rel-80-view-TB-gov-ob-13">
+        <bounds x="390" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-14" archimateElement="TB_BO02" targetConnections="view-TB-gov-con-id-rel-81-view-TB-gov-ob-14">
+        <bounds x="740" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-15" archimateElement="TB_BO03" targetConnections="view-TB-gov-con-id-rel-82-view-TB-gov-ob-15">
+        <bounds x="1090" y="600" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-16" archimateElement="TB_BO04" targetConnections="view-TB-gov-con-id-rel-83-view-TB-gov-ob-16">
+        <bounds x="40" y="760" width="290" height="90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-17" archimateElement="TB_D01">
+        <bounds x="390" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-80-view-TB-gov-ob-13" source="view-TB-gov-ob-17" target="view-TB-gov-ob-13" archimateRelationship="id-rel-80" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-18" archimateElement="TB_D02">
+        <bounds x="740" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-81-view-TB-gov-ob-14" source="view-TB-gov-ob-18" target="view-TB-gov-ob-14" archimateRelationship="id-rel-81" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-19" archimateElement="TB_D03" targetConnections="view-TB-gov-con-id-rel-77-view-TB-gov-ob-19">
+        <bounds x="1090" y="760" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-82-view-TB-gov-ob-15" source="view-TB-gov-ob-19" target="view-TB-gov-ob-15" archimateRelationship="id-rel-82" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-gov-ob-20" archimateElement="TB_D04">
+        <bounds x="40" y="920" width="290" height="90" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-gov-con-id-rel-83-view-TB-gov-ob-16" source="view-TB-gov-ob-20" target="view-TB-gov-ob-16" archimateRelationship="id-rel-83" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-TB-gov-note-0">
+        <bounds x="40" y="20" width="1340" height="60" />
+        <content>06 Gobierno objetivo | Roles, controles y objetos de negocio. Fuente: FICHA B/C/F/H e inventario. Propuestas TB no implantadas.</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-gaps" name="07 Brechas actual objetivo">
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-0" archimateElement="AS_P07">
+        <bounds x="40" y="140" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-97-view-gaps-ob-1" source="view-gaps-ob-0" target="view-gaps-ob-1" archimateRelationship="id-rel-97" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-1" archimateElement="TB_P07" targetConnections="view-gaps-con-id-rel-97-view-gaps-ob-1">
+        <bounds x="780" y="140" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-2" archimateElement="AS_T02">
+        <bounds x="40" y="290" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-45-view-gaps-ob-4" source="view-gaps-ob-2" target="view-gaps-ob-4" archimateRelationship="id-rel-45" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-98-view-gaps-ob-3" source="view-gaps-ob-2" target="view-gaps-ob-3" archimateRelationship="id-rel-98" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-3" archimateElement="TB_T02" targetConnections="view-gaps-con-id-rel-98-view-gaps-ob-3">
+        <bounds x="780" y="290" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-95-view-gaps-ob-5" source="view-gaps-ob-3" target="view-gaps-ob-5" archimateRelationship="id-rel-95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-4" archimateElement="AS_A03" targetConnections="view-gaps-con-id-rel-45-view-gaps-ob-4">
+        <bounds x="40" y="440" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-15-view-gaps-ob-6" source="view-gaps-ob-4" target="view-gaps-ob-6" archimateRelationship="id-rel-15" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-25-view-gaps-ob-10" source="view-gaps-ob-4" target="view-gaps-ob-10" archimateRelationship="id-rel-25" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-99-view-gaps-ob-5" source="view-gaps-ob-4" target="view-gaps-ob-5" archimateRelationship="id-rel-99" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-5" archimateElement="TB_A03" targetConnections="view-gaps-con-id-rel-95-view-gaps-ob-5 view-gaps-con-id-rel-99-view-gaps-ob-5">
+        <bounds x="780" y="440" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-61-view-gaps-ob-7" source="view-gaps-ob-5" target="view-gaps-ob-7" archimateRelationship="id-rel-61" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-73-view-gaps-ob-11" source="view-gaps-ob-5" target="view-gaps-ob-11" archimateRelationship="id-rel-73" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-6" archimateElement="AS_S04" targetConnections="view-gaps-con-id-rel-15-view-gaps-ob-6">
+        <bounds x="40" y="590" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-100-view-gaps-ob-7" source="view-gaps-ob-6" target="view-gaps-ob-7" archimateRelationship="id-rel-100" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-7" archimateElement="TB_S04" targetConnections="view-gaps-con-id-rel-61-view-gaps-ob-7 view-gaps-con-id-rel-100-view-gaps-ob-7">
+        <bounds x="780" y="590" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-8" archimateElement="AS_A02">
+        <bounds x="40" y="740" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-26-view-gaps-ob-10" source="view-gaps-ob-8" target="view-gaps-ob-10" archimateRelationship="id-rel-26" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-101-view-gaps-ob-9" source="view-gaps-ob-8" target="view-gaps-ob-9" archimateRelationship="id-rel-101" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-9" archimateElement="TB_S05" targetConnections="view-gaps-con-id-rel-101-view-gaps-ob-9">
+        <bounds x="780" y="740" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-10" archimateElement="AS_D01" targetConnections="view-gaps-con-id-rel-25-view-gaps-ob-10 view-gaps-con-id-rel-26-view-gaps-ob-10">
+        <bounds x="40" y="890" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-102-view-gaps-ob-11" source="view-gaps-ob-10" target="view-gaps-ob-11" archimateRelationship="id-rel-102" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-11" archimateElement="TB_D01" targetConnections="view-gaps-con-id-rel-73-view-gaps-ob-11 view-gaps-con-id-rel-102-view-gaps-ob-11">
+        <bounds x="780" y="890" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-12" archimateElement="AS_D03">
+        <bounds x="40" y="1040" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-103-view-gaps-ob-13" source="view-gaps-ob-12" target="view-gaps-ob-13" archimateRelationship="id-rel-103" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-13" archimateElement="TB_D03" targetConnections="view-gaps-con-id-rel-103-view-gaps-ob-13">
+        <bounds x="780" y="1040" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-14" archimateElement="AS_A05">
+        <bounds x="40" y="1190" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-104-view-gaps-ob-15" source="view-gaps-ob-14" target="view-gaps-ob-15" archimateRelationship="id-rel-104" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-15" archimateElement="TB_A05" targetConnections="view-gaps-con-id-rel-104-view-gaps-ob-15">
+        <bounds x="780" y="1190" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-16" archimateElement="AS_P08" targetConnections="view-gaps-con-id-rel-40-view-gaps-ob-16">
+        <bounds x="40" y="1340" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-105-view-gaps-ob-17" source="view-gaps-ob-16" target="view-gaps-ob-17" archimateRelationship="id-rel-105" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-17" archimateElement="TB_P08" targetConnections="view-gaps-con-id-rel-90-view-gaps-ob-17 view-gaps-con-id-rel-105-view-gaps-ob-17">
+        <bounds x="780" y="1340" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-18" archimateElement="AS_T06">
+        <bounds x="40" y="1490" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-40-view-gaps-ob-16" source="view-gaps-ob-18" target="view-gaps-ob-16" archimateRelationship="id-rel-40" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-106-view-gaps-ob-19" source="view-gaps-ob-18" target="view-gaps-ob-19" archimateRelationship="id-rel-106" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-19" archimateElement="TB_T06" targetConnections="view-gaps-con-id-rel-106-view-gaps-ob-19">
+        <bounds x="780" y="1490" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-90-view-gaps-ob-17" source="view-gaps-ob-19" target="view-gaps-ob-17" archimateRelationship="id-rel-90" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-20" archimateElement="AS_T05">
+        <bounds x="40" y="1640" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-107-view-gaps-ob-21" source="view-gaps-ob-20" target="view-gaps-ob-21" archimateRelationship="id-rel-107" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-21" archimateElement="TB_T05" targetConnections="view-gaps-con-id-rel-107-view-gaps-ob-21">
+        <bounds x="780" y="1640" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-22" archimateElement="AS_P09">
+        <bounds x="40" y="1790" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-108-view-gaps-ob-23" source="view-gaps-ob-22" target="view-gaps-ob-23" archimateRelationship="id-rel-108" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-23" archimateElement="TB_P09" targetConnections="view-gaps-con-id-rel-108-view-gaps-ob-23">
+        <bounds x="780" y="1790" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-24" archimateElement="AS_P10">
+        <bounds x="40" y="1940" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-109-view-gaps-ob-25" source="view-gaps-ob-24" target="view-gaps-ob-25" archimateRelationship="id-rel-109" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-25" archimateElement="TB_P10" targetConnections="view-gaps-con-id-rel-109-view-gaps-ob-25">
+        <bounds x="780" y="1940" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-26" archimateElement="AS_P09">
+        <bounds x="40" y="2090" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-110-view-gaps-ob-27" source="view-gaps-ob-26" target="view-gaps-ob-27" archimateRelationship="id-rel-110" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-27" archimateElement="TB_A08" targetConnections="view-gaps-con-id-rel-110-view-gaps-ob-27">
+        <bounds x="780" y="2090" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-28" archimateElement="AS_P11">
+        <bounds x="40" y="2240" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-111-view-gaps-ob-29" source="view-gaps-ob-28" target="view-gaps-ob-29" archimateRelationship="id-rel-111" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-29" archimateElement="TB_P11" targetConnections="view-gaps-con-id-rel-111-view-gaps-ob-29">
+        <bounds x="780" y="2240" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-30" archimateElement="AS_B01">
+        <bounds x="40" y="2390" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-112-view-gaps-ob-31" source="view-gaps-ob-30" target="view-gaps-ob-31" archimateRelationship="id-rel-112" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-31" archimateElement="TB_B01" targetConnections="view-gaps-con-id-rel-112-view-gaps-ob-31">
+        <bounds x="780" y="2390" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-32" archimateElement="AS_D02">
+        <bounds x="40" y="2540" width="500" height="95" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-gaps-con-id-rel-113-view-gaps-ob-33" source="view-gaps-ob-32" target="view-gaps-ob-33" archimateRelationship="id-rel-113" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-gaps-ob-33" archimateElement="TB_D02" targetConnections="view-gaps-con-id-rel-113-view-gaps-ob-33">
+        <bounds x="780" y="2540" width="500" height="95" />
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-0">
+        <bounds x="40" y="20" width="1600" height="70" />
+        <content>Brechas AS → TB | Origen y criterios en AR03_brechas.csv y AR07_trazabilidad.csv. No representa migración ejecutada.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-1">
+        <bounds x="1340" y="140" width="300" height="90" />
+        <content>BR01 | Negocio | Modificar | PT01</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-2">
+        <bounds x="1340" y="290" width="300" height="90" />
+        <content>BR02 | Tecnologia | Modificar | PT03</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-3">
+        <bounds x="1340" y="440" width="300" height="90" />
+        <content>BR03 | Aplicacion | Reemplazar | PT04</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-4">
+        <bounds x="1340" y="590" width="300" height="90" />
+        <content>BR04 | Aplicacion | Modificar | PT04</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-5">
+        <bounds x="1340" y="740" width="300" height="90" />
+        <content>BR05 | Aplicacion | Nuevo | PT04</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-6">
+        <bounds x="1340" y="890" width="300" height="90" />
+        <content>BR06 | Datos | Modificar | PT02</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-7">
+        <bounds x="1340" y="1040" width="300" height="90" />
+        <content>BR07 | Datos | Modificar | PT02</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-8">
+        <bounds x="1340" y="1190" width="300" height="90" />
+        <content>BR08 | Aplicacion | Migrar | PT04</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-9">
+        <bounds x="1340" y="1340" width="300" height="90" />
+        <content>BR09 | Negocio | Modificar | PT05</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-10">
+        <bounds x="1340" y="1490" width="300" height="90" />
+        <content>BR10 | Tecnologia | Ampliar | PT05</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-11">
+        <bounds x="1340" y="1640" width="300" height="90" />
+        <content>BR11 | Tecnologia | Modificar | PT03</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-12">
+        <bounds x="1340" y="1790" width="300" height="90" />
+        <content>BR12 | Negocio | Nuevo | PT06</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-13">
+        <bounds x="1340" y="1940" width="300" height="90" />
+        <content>BR13 | Negocio | Modificar | PT06</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-14">
+        <bounds x="1340" y="2090" width="300" height="90" />
+        <content>BR14 | Aplicacion | Nuevo | PT06</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-15">
+        <bounds x="1340" y="2240" width="300" height="90" />
+        <content>BR15 | Negocio | Modificar | PT01</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-16">
+        <bounds x="1340" y="2390" width="300" height="90" />
+        <content>BR16 | Negocio | Modificar | PT01</content>
+      </child>
+      <child xsi:type="archimate:Note" id="view-gaps-note-17">
+        <bounds x="1340" y="2540" width="300" height="90" />
+        <content>BR17 | Datos | Modificar | PT02</content>
       </child>
     </element>
   </folder>
-  <purpose>Taller S10 Grupo 1. Organizacion ficticia del caso academico 09 publicado por OscarJimenezFlores/PETI en GitHub publico. No es infraestructura real. Estado actual derivado exclusivamente de ese material publico; objetivo propuesto. Sin IP credenciales rutas internas ni datos privados. Validacion en Archi pendiente. Ver PROCEDENCIA.md.</purpose>
+  <purpose>Caso académico ficticio 09. AS basado en FICHA e inventario; TB propuesto. Sin IP, secretos ni registros personales. Mantener público fue decisión del equipo; requisito privado pendiente.</purpose>
 </archimate:model>

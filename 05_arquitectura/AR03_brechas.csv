@@ -1,4 +1,4 @@
-id,capa,actual,objetivo,tipo_brecha,esfuerzo,paquete,origen,elemento_as_is,elemento_to_be,dependencias_paquete
+﻿id,capa,actual,objetivo,tipo_brecha,esfuerzo,paquete,origen,elemento_as_is,elemento_to_be,dependencias_paquete
 BR01,Negocio,Control de vencimientos en hoja; contrato satelital vencido,Control contractual con responsable y alertas,Modificar,Medio,PT01,FICHA F G H; inventario 2 5,AS_P07,TB_P07,Ninguna
 BR02,Tecnologia,Respaldo satelital inoperativo,Redundancia operativa con contrato y conmutacion probada,Modificar,Alto,PT03,FICHA G H; inventario 6,AS_T02,TB_T02,PT01
 BR03,Aplicacion,Integracion de personal mantenida por correo con exempleado,Integracion documentada y soportada por responsable formal,Reemplazar,Alto,PT04,Inventario 4,AS_A03,TB_A03,PT02;PT03;PT05;PT06

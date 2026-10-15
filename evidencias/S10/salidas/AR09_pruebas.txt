@@ -1,0 +1,10 @@
+test_ciclo (__main__.DependenciasTest.test_ciclo) ... ok
+test_desconocida (__main__.DependenciasTest.test_desconocida) ... ok
+test_niveles (__main__.DependenciasTest.test_niveles) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+Matriz oficial de Archi: 113 relaciones permitidas; 0 inválidas.
+7 vistas; 17 brechas visibles AS/TB; 12 servicios de negocio; 3 hojas actuales; IDs y referencias válidos; UTF-8 sin U+FFFD.
