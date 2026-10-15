@@ -1,0 +1,87 @@
+id,type,name,layer,documentation
+AS_P01,BusinessProcess,Licitacion y contratacion,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P02,BusinessProcess,Planificacion y ejecucion,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P03,BusinessProcess,Seguridad y salud ocupacional,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P04,BusinessProcess,Control de personal y campamento,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P05,BusinessProcess,Mantenimiento de equipos,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P06,BusinessProcess,Facturacion y valorizaciones,business,Estado actual documentado en FICHA D y arquitectura-actual 3.
+AS_P07,BusinessProcess,Control contractual en hoja,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_P08,BusinessProcess,Administracion con cuentas compartidas,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_P09,BusinessProcess,Soporte reactivo sin registro,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_P10,BusinessProcess,Cambios documentados despues de ejecutar,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_P11,BusinessProcess,Homologacion con nueve observaciones abiertas,business,Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.
+AS_B01,BusinessObject,Politica de seguridad 2022 sin revision,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA B.
+AS_R01,BusinessActor,Cliente minero,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
+AS_R02,BusinessRole,Gerencia de Operaciones,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
+AS_R03,BusinessRole,Superintendencia de TI,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
+AS_R04,BusinessRole,Superintendencia de Mantenimiento,business,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.
+AS_A01,ApplicationComponent,ERP corporativo,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A02,ApplicationComponent,SaaS SSO,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A03,ApplicationComponent,Control de personal e integracion dependiente de exempleado,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A04,ApplicationComponent,Modulo ERP mantenimiento,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A05,ApplicationComponent,Hoja de programacion de servicios,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A06,ApplicationComponent,Hoja de vencimiento de contratos,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_A07,ApplicationComponent,Hoja de reportes de asistencia,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+AS_S01,ApplicationService,Gestion de proyectos y finanzas,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.
+AS_S02,ApplicationService,Gestion SSO,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.
+AS_S03,ApplicationService,Registro de personal y asistencia,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.
+AS_S04,ApplicationService,Transferencia mensual de personal,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.
+AS_S06,ApplicationService,Gestion de mantenimiento,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.
+AS_D01,DataObject,Personal en campamento,application,"Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente autoritativa; Operaciones como responsable de hecho. Conteos 420, hasta 700, 480, 420."
+AS_D02,DataObject,Equipo,application,"Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Superintendente de Mantenimiento; 310,310,290. Horas discrepantes."
+AS_D03,DataObject,Contrato,application,"Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente ni dueno; 140 en cada ubicacion, sin control efectivo de vigencia."
+AS_D04,DataObject,Servicio,application,"Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Gerente de Operaciones; 36 por anio, sin desglose por sistema."
+AS_D05,DataObject,Proveedor,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado proveedores.csv con 210 registros. Sistema origen y dueno no documentados.
+AS_D06,DataObject,Pago,application,Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado pagos.csv con 25185 registros. Sistema origen y dueno no documentados.
+AS_T01,Node,Nube privada del ERP,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T02,TechnologyService,Enlace principal sin respaldo efectivo,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T03,Node,Servidor de control en campamento,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T04,Node,90 estaciones Tacna y 40 campamento,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T05,Device,Disco externo conectado al servidor,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T06,TechnologyService,MFA solo en correo,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.
+AS_T07,CommunicationNetwork,Red Tacna y red campamento,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 6; se abstraen detalles sensibles.
+AS_T08,Node,Plataforma SaaS de SSO,technology,Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 6.
+TB_P01,BusinessProcess,Licitacion y contratacion,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P02,BusinessProcess,Planificacion y ejecucion,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P03,BusinessProcess,Seguridad y salud ocupacional,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P04,BusinessProcess,Control de personal y campamento,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P05,BusinessProcess,Mantenimiento de equipos,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P06,BusinessProcess,Facturacion y valorizaciones,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion.
+TB_P07,BusinessProcess,Control contractual con alertas,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_P08,BusinessProcess,Administracion con identidad individual,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_P09,BusinessProcess,Soporte con registro de incidentes,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_P10,BusinessProcess,Cambios aprobados antes de ejecutar,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_P11,BusinessProcess,Homologacion con evidencia y cierre validado,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.
+TB_B01,BusinessObject,Politica de seguridad revisada y difundida,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA B.
+TB_R01,BusinessActor,Cliente minero,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
+TB_R02,BusinessRole,Gerencia de Operaciones,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
+TB_R03,BusinessRole,Superintendencia de TI,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
+TB_R04,BusinessRole,Superintendencia de Mantenimiento,business,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.
+TB_A01,ApplicationComponent,ERP corporativo,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A02,ApplicationComponent,SaaS SSO,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A03,ApplicationComponent,Control de personal con integracion soportada,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A04,ApplicationComponent,Modulo ERP mantenimiento,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A05,ApplicationComponent,Programacion integrada en ERP,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A06,ApplicationComponent,Registro contractual con alertas,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A07,ApplicationComponent,Reporte de asistencia conciliado,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.
+TB_A08,ApplicationComponent,Registro de activos configuracion e incidentes,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA F; BR12 BR13 BR14. Producto por evaluar.
+TB_S01,ApplicationService,Gestion de proyectos y finanzas,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_S02,ApplicationService,Gestion SSO,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_S03,ApplicationService,Registro de personal conciliado,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_S04,ApplicationService,Transferencia de personal con validacion,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_S06,ApplicationService,Gestion de mantenimiento,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_S05,ApplicationService,Intercambio minimo SSO ERP,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.
+TB_D01,DataObject,Personal en campamento con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D02,DataObject,Equipo con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D03,DataObject,Contrato con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D04,DataObject,Servicio con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D05,DataObject,Proveedor con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_D06,DataObject,Pago con gobierno propuesto,application,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.
+TB_T01,Node,Nube privada del ERP,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T02,TechnologyService,Conectividad redundante con conmutacion probada,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T03,Node,Servidor de control con recuperacion probada,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T04,Node,Estaciones registradas y administradas,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T05,Device,Copia aislada o inmutable con restauracion probada,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T06,TechnologyService,MFA en servicios criticos compatibles,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.
+TB_T07,CommunicationNetwork,Red Tacna y red campamento,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 6; se abstraen detalles sensibles.
+TB_T08,Node,Plataforma SaaS de SSO,technology,Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 6.

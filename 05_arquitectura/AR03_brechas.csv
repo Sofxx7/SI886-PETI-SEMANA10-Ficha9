@@ -1,0 +1,18 @@
+id,capa,actual,objetivo,tipo_brecha,esfuerzo,paquete,origen,elemento_as_is,elemento_to_be,dependencias_paquete
+BR01,Negocio,Control de vencimientos en hoja; contrato satelital vencido,Control contractual con responsable y alertas,Modificar,Medio,PT01,FICHA F G H; inventario 2 5,AS_P07,TB_P07,Ninguna
+BR02,Tecnologia,Respaldo satelital inoperativo,Redundancia operativa con contrato y conmutacion probada,Modificar,Alto,PT03,FICHA G H; inventario 6,AS_T02,TB_T02,PT01
+BR03,Aplicacion,Integracion de personal mantenida por correo con exempleado,Integracion documentada y soportada por responsable formal,Reemplazar,Alto,PT04,Inventario 4,AS_A03,TB_A03,PT02;PT03;PT05;PT06
+BR04,Aplicacion,Transferencia mensual de personal al ERP,Transferencia validada con frecuencia aprobada segun necesidad,Modificar,Medio,PT04,Inventario 4; PA02 PA03,AS_S04,TB_S04,PT02;PT03;PT05;PT06
+BR05,Aplicacion,SSO aislado del ERP,Intercambio minimo necesario de personal y habilitaciones,Nuevo,Medio,PT04,Inventario 4; PA03 PA06,AS_A02,TB_S05,PT02;PT03;PT05;PT06
+BR06,Datos,Personal sin fuente autoritativa; responsable de hecho,Maestro validado con fuente y dueno formalizados,Modificar,Medio,PT02,Inventario 5,AS_D01,TB_D01,PT01
+BR07,Datos,Contratos sin fuente autoritativa ni dueno,Registro contractual con fuente dueno y calidad,Modificar,Medio,PT02,Inventario 5,AS_D03,TB_D03,PT01
+BR08,Aplicacion,Programacion en hoja de calculo sin soporte,Programacion integrada y conciliada con ERP,Migrar,Medio,PT04,Inventario 2 5; PA07,AS_A05,TB_A05,PT02;PT03;PT05;PT06
+BR09,Negocio,Administracion con cuentas compartidas,Administracion con identidad individual y trazabilidad,Modificar,Medio,PT05,FICHA F; PA04,AS_P08,TB_P08,PT01
+BR10,Tecnologia,MFA solo en correo corporativo,MFA en servicios criticos compatibles y excepciones controladas,Ampliar,Medio,PT05,FICHA F; PA04,AS_T06,TB_T06,PT01
+BR11,Tecnologia,Respaldo en disco conectado al servidor,Copias aisladas o inmutables con restauracion probada,Modificar,Medio,PT03,FICHA F; PA01,AS_T05,TB_T05,PT01
+BR12,Negocio,Soporte sin registro de incidentes,Gestion de incidentes con registro prioridad y cierre,Nuevo,Bajo,PT06,FICHA F; PA05,AS_P09,TB_P09,PT01
+BR13,Negocio,Formato de cambio completado despues de ejecutar,Cambio evaluado aprobado y verificable antes de aplicar,Modificar,Bajo,PT06,FICHA F; PA05,AS_P10,TB_P10,PT01
+BR14,Aplicacion,Soporte sin inventario de activos TI,Inventario y registro de configuracion con responsable,Nuevo,Medio,PT06,FICHA F; PA05,AS_P09,TB_A08,PT01
+BR15,Negocio,Homologacion con nueve observaciones abiertas,Registro de observaciones con evidencia y validacion de cierre,Modificar,Medio,PT01,FICHA C H; PA05,AS_P11,TB_P11,Ninguna
+BR16,Negocio,Politica de seguridad 2022 sin difusion ni revision,Politica revisada difundida y con capacitacion registrada,Modificar,Bajo,PT01,FICHA B F; PA06,AS_B01,TB_B01,Ninguna
+BR17,Datos,Horas de equipo diferentes entre ERP y libro,Horas de equipo conciliadas con reglas de aceptacion,Modificar,Medio,PT02,Inventario 5; PA02,AS_D02,TB_D02,PT01

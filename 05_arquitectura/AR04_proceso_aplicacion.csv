@@ -1,0 +1,7 @@
+id,proceso,soporte_actual,evaluacion,justificacion,soporte_objetivo_propuesto
+P01,Licitacion y contratacion con el cliente minero,ERP corporativo,Adecuado segun inventario,La ficha no documenta deficiencia del soporte directo; control de proveedores TI se analiza como proceso auxiliar,ERP con consulta a obligaciones y evidencias
+P02,Planificacion y ejecucion de servicios en operacion,ERP proyectos y hoja de programacion,Parcial,Horas facturables diferentes entre informe al cliente y ERP; dependencia de enlace sin respaldo efectivo,ERP con programacion integrada y captura recuperable
+P03,Gestion de seguridad y salud ocupacional,SaaS SSO,Parcial,Soporte especializado existente; no hay integracion al ERP y personal presenta conteos de distinta cobertura,SaaS SSO con intercambio minimo validado
+P04,Control de personal y campamento,Biometrico sistema proveedor y hoja de asistencia,Deficiente,Integracion mantenida con exempleado; archivo mensual al ERP y reporte al cliente discrepante,Control soportado con integracion documentada y conciliacion
+P05,Mantenimiento de equipos,Modulo ERP mantenimiento y libro de operaciones,Parcial,Horas de equipo distintas entre ERP y libro; registro cliente con diferente alcance,ERP mantenimiento con conciliacion de horas
+P06,Facturacion y valorizaciones,ERP finanzas y proyectos,Parcial,Horas facturables del informe y ERP diferentes; no se acredita error en todos los comprobantes,ERP con validacion de horas antes de valorizar

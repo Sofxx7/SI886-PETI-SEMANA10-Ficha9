@@ -1,0 +1,2 @@
+XML nativo generado y parseable. Conceptos: 86. Relaciones: 62. Vistas: 4. Brechas con identificadores en ambos estados: 17. IDs unicos y referencias internas validas.
+No ejecutado: apertura y validacion semantica en Archi; exportacion PNG desde Archi.

@@ -1,0 +1,7 @@
+paquete,nombre,brechas,numero_brechas,esfuerzo_maximo,dependencias,nivel
+PT01,Gobierno contractual y evidencia,BR01;BR15;BR16,3,Medio,Ninguna,1
+PT02,Gobierno y conciliacion del dato,BR06;BR07;BR17,3,Medio,PT01,2
+PT03,Continuidad de enlace y respaldos,BR02;BR11,2,Alto,PT01,2
+PT04,Integracion y programacion operativa,BR03;BR04;BR05;BR08,4,Alto,PT02;PT03;PT05;PT06,3
+PT05,Identidad y control de acceso,BR09;BR10,2,Medio,PT01,2
+PT06,Gestion de servicios cambios y activos,BR12;BR13;BR14,3,Medio,PT01,2

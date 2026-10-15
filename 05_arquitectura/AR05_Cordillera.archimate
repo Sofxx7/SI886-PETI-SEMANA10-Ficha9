@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='utf-8'?>
+<archimate:model xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Caso 09 Servicios Mineros Cordillera Grupo 1" id="id-cordillera-s10-g1" version="5.0.0">
+  <folder id="id-folder-strategy" name="Strategy" type="strategy" />
+  <folder id="id-folder-business" name="Business" type="business">
+    <element xsi:type="archimate:BusinessProcess" id="AS_P01" name="Licitacion y contratacion">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P02" name="Planificacion y ejecucion">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P03" name="Seguridad y salud ocupacional">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P04" name="Control de personal y campamento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P05" name="Mantenimiento de equipos">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P06" name="Facturacion y valorizaciones">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P07" name="Control contractual en hoja">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P08" name="Administracion con cuentas compartidas">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P09" name="Soporte reactivo sin registro">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P10" name="Cambios documentados despues de ejecutar">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="AS_P11" name="Homologacion con nueve observaciones abiertas">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="AS_B01" name="Politica de seguridad 2022 sin revision">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA B.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" id="AS_R01" name="Cliente minero">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="AS_R02" name="Gerencia de Operaciones">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="AS_R03" name="Superintendencia de TI">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="AS_R04" name="Superintendencia de Mantenimiento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P01" name="Licitacion y contratacion">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P02" name="Planificacion y ejecucion">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P03" name="Seguridad y salud ocupacional">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P04" name="Control de personal y campamento">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P05" name="Mantenimiento de equipos">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P06" name="Facturacion y valorizaciones">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P07" name="Control contractual con alertas">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P08" name="Administracion con identidad individual">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P09" name="Soporte con registro de incidentes">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P10" name="Cambios aprobados antes de ejecutar">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" id="TB_P11" name="Homologacion con evidencia y cierre validado">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuentes FICHA C F H y PA05.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" id="TB_B01" name="Politica de seguridad revisada y difundida">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA B.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" id="TB_R01" name="Cliente minero">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="TB_R02" name="Gerencia de Operaciones">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="TB_R03" name="Superintendencia de TI">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="TB_R04" name="Superintendencia de Mantenimiento">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA A B; inventario 5.</documentation>
+    </element>
+  </folder>
+  <folder id="id-folder-application" name="Application" type="application">
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A01" name="ERP corporativo">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A02" name="SaaS SSO">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A03" name="Control de personal e integracion dependiente de exempleado">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A04" name="Modulo ERP mantenimiento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A05" name="Hoja de programacion de servicios">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A06" name="Hoja de vencimiento de contratos">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="AS_A07" name="Hoja de reportes de asistencia">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="AS_S01" name="Gestion de proyectos y finanzas">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="AS_S02" name="Gestion SSO">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="AS_S03" name="Registro de personal y asistencia">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="AS_S04" name="Transferencia mensual de personal">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="AS_S06" name="Gestion de mantenimiento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D01" name="Personal en campamento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente autoritativa; Operaciones como responsable de hecho. Conteos 420, hasta 700, 480, 420.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D02" name="Equipo">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Superintendente de Mantenimiento; 310,310,290. Horas discrepantes.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D03" name="Contrato">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Sin fuente ni dueno; 140 en cada ubicacion, sin control efectivo de vigencia.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D04" name="Servicio">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. ERP autoritativo; Gerente de Operaciones; 36 por anio, sin desglose por sistema.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D05" name="Proveedor">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado proveedores.csv con 210 registros. Sistema origen y dueno no documentados.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="AS_D06" name="Pago">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Dataset entregado pagos.csv con 25185 registros. Sistema origen y dueno no documentados.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A01" name="ERP corporativo">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A02" name="SaaS SSO">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A03" name="Control de personal con integracion soportada">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A04" name="Modulo ERP mantenimiento">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A05" name="Programacion integrada en ERP">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A06" name="Registro contractual con alertas">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A07" name="Reporte de asistencia conciliado">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 y 4. En TB se verifica capacidad del producto antes de adquirir o ampliar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="TB_A08" name="Registro de activos configuracion e incidentes">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA F; BR12 BR13 BR14. Producto por evaluar.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S01" name="Gestion de proyectos y finanzas">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S02" name="Gestion SSO">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S03" name="Registro de personal conciliado">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S04" name="Transferencia de personal con validacion">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S06" name="Gestion de mantenimiento">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" id="TB_S05" name="Intercambio minimo SSO ERP">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 2 4 y PA03.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D01" name="Personal en campamento con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D02" name="Equipo con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D03" name="Contrato con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D04" name="Servicio con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D05" name="Proveedor con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="TB_D06" name="Pago con gobierno propuesto">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Fuente y dueno propuestos en AR02; validar.</documentation>
+    </element>
+  </folder>
+  <folder id="id-folder-technology" name="Technology and Physical" type="technology">
+    <element xsi:type="archimate:Node" id="AS_T01" name="Nube privada del ERP">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:TechnologyService" id="AS_T02" name="Enlace principal sin respaldo efectivo">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="AS_T03" name="Servidor de control en campamento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="AS_T04" name="90 estaciones Tacna y 40 campamento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Device" id="AS_T05" name="Disco externo conectado al servidor">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:TechnologyService" id="AS_T06" name="MFA solo en correo">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:CommunicationNetwork" id="AS_T07" name="Red Tacna y red campamento">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 6; se abstraen detalles sensibles.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="AS_T08" name="Plataforma SaaS de SSO">
+      <documentation>Estado actual documentado en FICHA D y arquitectura-actual 3. Inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="TB_T01" name="Nube privada del ERP">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:TechnologyService" id="TB_T02" name="Conectividad redundante con conmutacion probada">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="TB_T03" name="Servidor de control con recuperacion probada">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="TB_T04" name="Estaciones registradas y administradas">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:Device" id="TB_T05" name="Copia aislada o inmutable con restauracion probada">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:TechnologyService" id="TB_T06" name="MFA en servicios criticos compatibles">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. FICHA C F G; inventario 6.</documentation>
+    </element>
+    <element xsi:type="archimate:CommunicationNetwork" id="TB_T07" name="Red Tacna y red campamento">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 6; se abstraen detalles sensibles.</documentation>
+    </element>
+    <element xsi:type="archimate:Node" id="TB_T08" name="Plataforma SaaS de SSO">
+      <documentation>Propuesta de arquitectura objetivo; requiere validacion y aprobacion. Inventario 6.</documentation>
+    </element>
+  </folder>
+  <folder id="id-folder-motivation" name="Motivation" type="motivation" />
+  <folder id="id-folder-implementation_migration" name="Implementation and Migration" type="implementation_migration" />
+  <folder id="id-folder-other" name="Other" type="other" />
+  <folder id="id-folder-relations" name="Relations" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-1" source="AS_R02" target="AS_P02" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-2" source="AS_R04" target="AS_P05" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-3" source="AS_R03" target="AS_P09" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-4" source="AS_A01" target="AS_S01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-5" source="AS_A02" target="AS_S02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-6" source="AS_A03" target="AS_S03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-7" source="AS_A03" target="AS_S04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-8" source="AS_A04" target="AS_S06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-9" source="AS_S01" target="AS_P01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-10" source="AS_S01" target="AS_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-11" source="AS_S02" target="AS_P03" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-12" source="AS_S03" target="AS_P04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-13" source="AS_S06" target="AS_P05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-14" source="AS_S01" target="AS_P06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-15" source="AS_S04" target="AS_A01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-16" source="AS_A01" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-17" source="AS_A03" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-18" source="AS_A02" target="AS_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-19" source="AS_A04" target="AS_D02" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-20" source="AS_A01" target="AS_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-21" source="AS_A06" target="AS_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-22" source="AS_A01" target="AS_D04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-23" source="AS_A05" target="AS_D04" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-24" source="AS_T01" target="AS_A01" name="ubicacion documentada" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-25" source="AS_T03" target="AS_A03" name="ubicacion documentada" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-26" source="AS_T08" target="AS_A02" name="ubicacion documentada" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-27" source="AS_T02" target="AS_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-28" source="AS_T02" target="AS_A03" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-29" source="AS_T07" target="AS_T02" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-30" source="TB_R02" target="TB_P02" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-31" source="TB_R04" target="TB_P05" />
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-32" source="TB_R03" target="TB_P09" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-33" source="TB_A01" target="TB_S01" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-34" source="TB_A02" target="TB_S02" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-35" source="TB_A03" target="TB_S03" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-36" source="TB_A03" target="TB_S04" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-37" source="TB_A04" target="TB_S06" />
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-38" source="TB_A02" target="TB_S05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-39" source="TB_S01" target="TB_P01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-40" source="TB_S01" target="TB_P02" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-41" source="TB_S02" target="TB_P03" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-42" source="TB_S03" target="TB_P04" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-43" source="TB_S06" target="TB_P05" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-44" source="TB_S01" target="TB_P06" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-45" source="TB_S04" target="TB_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-46" source="TB_S05" target="TB_A01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-47" source="TB_A01" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-48" source="TB_A03" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-49" source="TB_A02" target="TB_D01" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-50" source="TB_A04" target="TB_D02" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-51" source="TB_A01" target="TB_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-52" source="TB_A06" target="TB_D03" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-53" source="TB_A01" target="TB_D04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-54" source="TB_A05" target="TB_D04" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-55" source="TB_A01" target="TB_D05" />
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-56" source="TB_A01" target="TB_D06" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-57" source="TB_T01" target="TB_A01" name="ubicacion propuesta" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-58" source="TB_T03" target="TB_A03" name="ubicacion propuesta" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-59" source="TB_T08" target="TB_A02" name="ubicacion propuesta" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-60" source="TB_T02" target="TB_A01" />
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-61" source="TB_T02" target="TB_A03" />
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-62" source="TB_T07" target="TB_T02" />
+  </folder>
+  <folder id="id-folder-diagrams" name="Views" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-AS" name="01 Arquitectura actual">
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-0" archimateElement="AS_P01">
+        <bounds x="40" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-1" archimateElement="AS_P02">
+        <bounds x="285" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-2" archimateElement="AS_P03">
+        <bounds x="530" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-3" archimateElement="AS_P04">
+        <bounds x="775" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-4" archimateElement="AS_P05">
+        <bounds x="40" y="120" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-5" archimateElement="AS_P06">
+        <bounds x="285" y="120" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-6" archimateElement="AS_A01" targetConnections="view-AS-con-id-rel-24 view-AS-con-id-rel-27">
+        <bounds x="40" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-7" archimateElement="AS_A02">
+        <bounds x="285" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-8" archimateElement="AS_A03" targetConnections="view-AS-con-id-rel-25 view-AS-con-id-rel-28">
+        <bounds x="530" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-9" archimateElement="AS_A04">
+        <bounds x="775" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-10" archimateElement="AS_A05">
+        <bounds x="40" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-11" archimateElement="AS_A06">
+        <bounds x="285" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-12" archimateElement="AS_A07">
+        <bounds x="530" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-13" archimateElement="AS_T01">
+        <bounds x="40" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-24" source="view-AS-ob-13" target="view-AS-ob-6" archimateRelationship="id-rel-24" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-14" archimateElement="AS_T02">
+        <bounds x="285" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-27" source="view-AS-ob-14" target="view-AS-ob-6" archimateRelationship="id-rel-27" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-28" source="view-AS-ob-14" target="view-AS-ob-8" archimateRelationship="id-rel-28" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-15" archimateElement="AS_T03">
+        <bounds x="530" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-AS-con-id-rel-25" source="view-AS-ob-15" target="view-AS-ob-8" archimateRelationship="id-rel-25" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-16" archimateElement="AS_T04">
+        <bounds x="775" y="470" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-17" archimateElement="AS_T05">
+        <bounds x="40" y="560" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-AS-ob-18" archimateElement="AS_T06">
+        <bounds x="285" y="560" width="220" height="65" />
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-TB" name="02 Arquitectura objetivo">
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-0" archimateElement="TB_P01">
+        <bounds x="40" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-1" archimateElement="TB_P02">
+        <bounds x="285" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-2" archimateElement="TB_P03">
+        <bounds x="530" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-3" archimateElement="TB_P04">
+        <bounds x="775" y="30" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-4" archimateElement="TB_P05">
+        <bounds x="40" y="120" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-5" archimateElement="TB_P06">
+        <bounds x="285" y="120" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-6" archimateElement="TB_A01" targetConnections="view-TB-con-id-rel-57 view-TB-con-id-rel-60">
+        <bounds x="40" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-7" archimateElement="TB_A02">
+        <bounds x="285" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-8" archimateElement="TB_A03" targetConnections="view-TB-con-id-rel-58 view-TB-con-id-rel-61">
+        <bounds x="530" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-9" archimateElement="TB_A04">
+        <bounds x="775" y="250" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-10" archimateElement="TB_A05">
+        <bounds x="40" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-11" archimateElement="TB_A06">
+        <bounds x="285" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-12" archimateElement="TB_A07">
+        <bounds x="530" y="340" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-13" archimateElement="TB_T01">
+        <bounds x="40" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-57" source="view-TB-ob-13" target="view-TB-ob-6" archimateRelationship="id-rel-57" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-14" archimateElement="TB_T02">
+        <bounds x="285" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-60" source="view-TB-ob-14" target="view-TB-ob-6" archimateRelationship="id-rel-60" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-61" source="view-TB-ob-14" target="view-TB-ob-8" archimateRelationship="id-rel-61" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-15" archimateElement="TB_T03">
+        <bounds x="530" y="470" width="220" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-TB-con-id-rel-58" source="view-TB-ob-15" target="view-TB-ob-8" archimateRelationship="id-rel-58" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-16" archimateElement="TB_T04">
+        <bounds x="775" y="470" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-17" archimateElement="TB_T05">
+        <bounds x="40" y="560" width="220" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-TB-ob-18" archimateElement="TB_T06">
+        <bounds x="285" y="560" width="220" height="65" />
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-coop" name="03 Cooperacion proceso aplicacion">
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-0" archimateElement="AS_P01" targetConnections="view-coop-con-id-rel-9">
+        <bounds x="30" y="30" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-1" archimateElement="AS_P02" targetConnections="view-coop-con-id-rel-10">
+        <bounds x="30" y="130" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-2" archimateElement="AS_P03" targetConnections="view-coop-con-id-rel-11">
+        <bounds x="30" y="230" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-3" archimateElement="AS_P04" targetConnections="view-coop-con-id-rel-12">
+        <bounds x="30" y="330" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-4" archimateElement="AS_P05" targetConnections="view-coop-con-id-rel-13">
+        <bounds x="30" y="430" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-5" archimateElement="AS_P06" targetConnections="view-coop-con-id-rel-14">
+        <bounds x="30" y="530" width="250" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-6" archimateElement="AS_S01">
+        <bounds x="390" y="30" width="250" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-9" source="view-coop-ob-6" target="view-coop-ob-0" archimateRelationship="id-rel-9" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-10" source="view-coop-ob-6" target="view-coop-ob-1" archimateRelationship="id-rel-10" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-14" source="view-coop-ob-6" target="view-coop-ob-5" archimateRelationship="id-rel-14" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-7" archimateElement="AS_S02">
+        <bounds x="390" y="130" width="250" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-11" source="view-coop-ob-7" target="view-coop-ob-2" archimateRelationship="id-rel-11" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-8" archimateElement="AS_S03">
+        <bounds x="390" y="230" width="250" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-12" source="view-coop-ob-8" target="view-coop-ob-3" archimateRelationship="id-rel-12" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-coop-ob-9" archimateElement="AS_S06">
+        <bounds x="390" y="330" width="250" height="65" />
+        <sourceConnection xsi:type="archimate:Connection" id="view-coop-con-id-rel-13" source="view-coop-ob-9" target="view-coop-ob-4" archimateRelationship="id-rel-13" />
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="view-data" name="04 Informacion actual y objetivo">
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-0" archimateElement="AS_D01">
+        <bounds x="30" y="30" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-1" archimateElement="AS_D02">
+        <bounds x="30" y="130" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-2" archimateElement="AS_D03">
+        <bounds x="30" y="230" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-3" archimateElement="AS_D04">
+        <bounds x="30" y="330" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-4" archimateElement="AS_D05">
+        <bounds x="30" y="430" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-5" archimateElement="AS_D06">
+        <bounds x="30" y="530" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-6" archimateElement="TB_D01">
+        <bounds x="430" y="30" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-7" archimateElement="TB_D02">
+        <bounds x="430" y="130" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-8" archimateElement="TB_D03">
+        <bounds x="430" y="230" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-9" archimateElement="TB_D04">
+        <bounds x="430" y="330" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-10" archimateElement="TB_D05">
+        <bounds x="430" y="430" width="330" height="65" />
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="view-data-ob-11" archimateElement="TB_D06">
+        <bounds x="430" y="530" width="330" height="65" />
+      </child>
+    </element>
+  </folder>
+  <purpose>Taller S10 Grupo 1. Organizacion ficticia del caso academico 09 publicado por OscarJimenezFlores/PETI en GitHub publico. No es infraestructura real. Estado actual derivado exclusivamente de ese material publico; objetivo propuesto. Sin IP credenciales rutas internas ni datos privados. Validacion en Archi pendiente. Ver PROCEDENCIA.md.</purpose>
+</archimate:model>
