@@ -1,0 +1,17 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+[Core] Loaded model: 'Caso 09 Servicios Mineros Cordillera Grupo 1'
+[HTMLReport] Creating report from 'Caso 09 Servicios Mineros Cordillera Grupo 1' to [workspace]/work/archi-report
+[HTMLReport] Copying files...
+[HTMLReport] Copying hints...
+[HTMLReport] Creating files...
+[HTMLReport] Generating image for View 1 of 7
+[HTMLReport] Generating image for View 2 of 7
+[HTMLReport] Generating image for View 3 of 7
+[HTMLReport] Generating image for View 4 of 7
+[HTMLReport] Generating image for View 5 of 7
+[HTMLReport] Generating image for View 6 of 7
+[HTMLReport] Generating image for View 7 of 7
+[HTMLReport] Creating files...
+[HTMLReport] Finalising...
+[HTMLReport] Report generated!
+[Core] Saved model to '[workspace]/work/archi-roundtrip.archimate'

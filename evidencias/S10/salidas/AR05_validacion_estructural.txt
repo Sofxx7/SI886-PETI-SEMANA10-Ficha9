@@ -1,2 +1,2 @@
-XML nativo generado y parseable. Conceptos: 86. Relaciones: 62. Vistas: 4. Brechas con identificadores en ambos estados: 17. IDs unicos y referencias internas validas.
-No ejecutado: apertura y validacion semantica en Archi; exportacion PNG desde Archi.
+XML nativo generado y parseable. Conceptos: 106. Relaciones: 113. Vistas: 7. Brechas con identificadores en ambos estados: 17. IDs unicos y referencias internas validas.
+Esta salida comprueba estructura. La ejecución de Archi y revisión semántica se registran separadamente en AR08_validacion.md.

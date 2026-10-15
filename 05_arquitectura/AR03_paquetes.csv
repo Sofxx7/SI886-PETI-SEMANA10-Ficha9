@@ -1,4 +1,4 @@
-paquete,nombre,brechas,numero_brechas,esfuerzo_maximo,dependencias,nivel
+﻿paquete,nombre,brechas,numero_brechas,esfuerzo_maximo,dependencias,nivel
 PT01,Gobierno contractual y evidencia,BR01;BR15;BR16,3,Medio,Ninguna,1
 PT02,Gobierno y conciliacion del dato,BR06;BR07;BR17,3,Medio,PT01,2
 PT03,Continuidad de enlace y respaldos,BR02;BR11,2,Alto,PT01,2

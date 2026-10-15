@@ -1,0 +1,4 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+[Core] Loaded model: 'Caso 09 Servicios Mineros Cordillera Grupo 1'
+[CSV] Exporting csv from 'Caso 09 Servicios Mineros Cordillera Grupo 1' to [workspace]/work/roundtrip-csv
+[CSV] CSV Exported!
